@@ -3,13 +3,15 @@ import { defineStore } from 'pinia'
 export const useQuizStore = defineStore('QuizStore', {
   state: () => ({
       questionModals: [],
-      currentQuestionIndex: 0,
+      scoreModal:false,
       score: 0,
       wrong:0,
     
   }),
-  getters:{
-    
+  getters: {
+    totalQuestion: (state) => {
+      return state.questionModals.length;
+    }
   },
   actions: {
     async fill() {
@@ -18,9 +20,5 @@ export const useQuizStore = defineStore('QuizStore', {
       
     },
  
-    resetQuiz() {
-      this.currentQuestionIndex = 0;
-      this.score = 0;
-    }
   }
 })
