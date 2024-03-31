@@ -9,15 +9,15 @@ import { RouterLink } from "vue-router";
       <img class="mx-auto h-10 w-auto" src="/quizWhiz.svg" alt="Your Company" />
     </div>
 
-    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[580px]">
-      <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
+    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[630px]">
+      <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12 mx-4">
         <div>
           <h2
             class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
           >
             Select your preferred layout
           </h2>
-          <div class="mt-10 grid grid-cols-2 gap-4">
+          <div class="mt-10 grid sm:grid-cols-2 gap-4">
             <RouterLink
               :to="{ name: 'list' }"
               class="flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:ring-transparent"
