@@ -1,79 +1,225 @@
 {
   "questionModals": [
     {
-      "question": "What is the scientific name of a butterfly?",
-      "answers": ["Apis", "Coleoptera", "Formicidae", "Rhopalocera"],
-      "correctIndex": 3
-    },
-    {
-      "question": "How hot is the surface of the sun?",
-      "answers": ["1,233 K", "5,778 K", "12,130 K", "101,300 K"],
-      "correctIndex": 1
-    },
-    {
-      "question": "Who are the actors in The Internship?",
-      "answers": [
-        "Ben Stiller, Jonah Hill",
-        "Courteney Cox, Matt LeBlanc",
-        "Kaley Cuoco, Jim Parsons",
-        "Vince Vaughn, Owen Wilson"
-      ],
-      "correctIndex": 3
-    },
-    {
-      "question": "What is the capital of Spain?",
-      "answers": ["Berlin", "Buenos Aires", "Madrid", "San Juan"],
-      "correctIndex": 2
-    },
-    {
-      "question": "What are the school colors of the University of Texas at Austin?",
-      "answers": ["Black, Red", "Blue, Orange", "White, Burnt Orange", "White, Old gold, Gold"],
-      "correctIndex": 2
-    },
-    {
-      "question": "What is 70 degrees Fahrenheit in Celsius?",
-      "answers": ["18.8889", "20", "21.1111", "158"],
-      "correctIndex": 2
-    },
-    {
-      "question": "When was Mahatma Gandhi born?",
-      "answers": ["October 2, 1869", "December 15, 1872", "July 18, 1918", "January 15, 1929"],
+      "question": "In which district is the ‘Fungfung’ waterfall?",
+      "answers": ["Nuwakot", "Rasuwa", "Sindhupalchok", "Kapilvastu"],
       "correctIndex": 0
     },
     {
-      "question": "How far is the moon from Earth?",
+      "question": "How many heritage properties are listed in the World Heritage List?",
+      "answers": ["7", "13", "15", "10"],
+      "correctIndex": 3
+    },
+    {
+      "question": "Who was the first to use the word ‘Jai Nepal’?",
       "answers": [
-        "7,918 miles (12,742 km)",
-        "86,881 miles (139,822 km)",
-        "238,400 miles (384,400 km)",
-        "35,980,000 miles (57,910,000 km)"
+        "Prithvi Narayan Shah",
+        "Shukraraj Shastri",
+        "Bhimsen Thapa",
+        "Girija Prasad Koirala"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "How many national pride projects are there in Nepal right now?",
+      "answers": ["15", "20", "23", "25"],
+      "correctIndex": 2
+    },
+    {
+      "question": "What percentage of the total land area of Nepal is cultivated on land?",
+      "answers": ["17.97%", "14.83%", "16.24%", "19.35%"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which is Nepal’s first highway?",
+      "answers": [
+        "Prithvi Highway",
+        "Araniko Highway",
+        "Tribhuvan highway",
+        "Karnali Highway"
       ],
       "correctIndex": 2
     },
     {
-      "question": "What is 65 times 52?",
-      "answers": ["117", "3120", "3380", "3520"],
+      "question": "What is the name of road Kathmandu – Pokhara?",
+      "answers": [
+        "Tribhuvan Highway",
+        "Prithwi Highway",
+        "Araniko Highway",
+        "Mahendra Highway"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is called the blank sheet on the front and back of the book?",
+      "answers": ["Cover", "Endpaper", "Fly Leaf", "Title Page"],
       "correctIndex": 2
     },
     {
-      "question": "How tall is Mount Everest?",
+      "question": "Who is the ‘Zero’ Inventor?",
+      "answers": ["Aryabhata", "Brahmagupta", "Bhaskara I", "Varahamihira"],
+      "correctIndex": 0
+    },
+    {
+      "question": "From which district did tea cultivation originate in Nepal?",
+      "answers": ["Dhankuta", "Ilam", "Jhapa", "Panchthar"],
+      "correctIndex": 1
+    },
+    {
+      "question": "When was the division of 14 zones and 75 districts?",
       "answers": [
-        "6,683 ft (2,037 m)",
-        "7,918 ft (2,413 m)",
-        "19,341 ft (5,895 m)",
-        "29,029 ft (8,847 m)"
+        "2016 Baishakh 01",
+        "2017 Baishakh 01",
+        "2018 Baishakh 01",
+        "2019 Baishakh 01"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "How many MW of electricity has been produced in Nepal so far?",
+      "answers": ["1024 MW", "1142 MW", "1268 MW", "1386 MW"],
+      "correctIndex": 1
+    },
+    {
+      "question": "When is earthquake day celebrated in Nepal?",
+      "answers": ["Magh 1", "Magh 3", "Magh 4", "Magh 2"],
+      "correctIndex": 3
+    },
+    {
+      "question": "In which district does the Chinamasta’s temple belong?",
+      "answers": ["Saptari", "Siraha", "Sunsari", "Udayapur"],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is is called Tharu caste the ‘Ghar-Jwai’ in tradition?",
+      "answers": ["Jharu", "Bhyawarpaithana", "Parakhi", "Rajbanshi"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which district lies in Zakhira Lake?",
+      "answers": ["Bardiya", "Dang", "Kapilvastu", "Rupandehi"],
+      "correctIndex": 2
+    },
+    {
+      "question": "By what name is the Bhandarkal festival known?",
+      "answers": [
+        "Basnet Parwa",
+        "Ghode Jatra",
+        "Indra Jatra",
+        "Shikali Jatra"
+      ],
+      "correctIndex": 0
+    },
+
+    {
+      "question": "Which is the smallest district of Nepal after local level division?",
+      "answers": ["Bhaktapur", "Kathmandu", "Lalitpur", "Sindhupalchok"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Where is the ‘Ghorne’ waterfall?",
+      "answers": ["Bhojpur", "Dhankuta", "Sankhuwasabha", "Tehrathum"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Where did Gautam Buddha give the first sermon?",
+      "answers": [
+        "Bodh Gaya, India",
+        "Kushinagar, India",
+        "Lumbini, Nepal",
+        "Sarnath, India"
       ],
       "correctIndex": 3
     },
     {
-      "question": "When did The Avengers come out?",
-      "answers": ["May 2, 2008", "May 4, 2012", "May 3, 2013", "April 4, 2014"],
+      "question": "Who is the second Miss Nepal of Nepal?",
+      "answers": [
+        "Sumi Khadka",
+        "Sadichha Shrestha",
+        "Shweta Singh",
+        "Malvika Subba"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Who is the first Chairman of the Public Service Commission?",
+      "answers": [
+        "Anirudra Prasad Singh",
+        "Bhesh Bahadur Thapa",
+        "Durga Prasad Pandit",
+        "Bishnu Prasad Shrestha"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which is the tallest temple in Nepal?",
+      "answers": [
+        "Guheswari Temple",
+        "Janaki Temple",
+        "Muktinath Temple",
+        "Pashupatinath Temple"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "By what treaty did the First World War end?",
+      "answers": [
+        "Treaty of Brest-Litovsk",
+        "Treaty of Versailles",
+        "Treaty of Trianon",
+        "Treaty of Saint-G"
+      ],
       "correctIndex": 1
     },
     {
-      "question": "What is 48,879 in hexidecimal?",
-      "answers": ["0x18C1", "0xBEEF", "0xDEAD", "0x12D591"],
+      "question": "What is a country with no police and no prison?",
+      "answers": ["Sweden", "Norway", "Denmark", "Iceland"],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is the hottest place in the world?",
+      "answers": ["Libya’s Azizia", "Death Valley", "Dasht-e Lut", "Tirat Zvi"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which is the only district not getting fish in Nepal?",
+      "answers": ["Darchula", "Manang", "Mustang", "Dolpa"],
       "correctIndex": 1
+    },
+    {
+      "question": "Which is the nation with the most borders in the world?",
+      "answers": ["China", "Russia", "India", "Brazil"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which country is ruled by two presidents?",
+      "answers": [
+        "Switzerland",
+        "Andorra",
+        "Bosnia and Herzegovina",
+        "Sanmarino"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Who is known as the birthplace of World Cup football?",
+      "answers": ["Julius Rimet", "France", "Italy", "Uruguay"],
+      "correctIndex": 0
+    },
+    {
+      "question": "In which district is Gosikund located?",
+      "answers": ["Dhading", "Dolakha", "Rasuwa", "Nuwakot"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which mountain of Nepal is considered as the basis for authentic time?",
+      "answers": ["Everest", "Kangchenjunga", "Lhotse", "Gourishankar"],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is the estimated number of rivers in Nepal?",
+      "answers": ["6000", "5000", "7000", "8000"],
+      "correctIndex": 0
     }
   ]
 }
