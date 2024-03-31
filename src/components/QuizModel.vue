@@ -74,7 +74,7 @@ const idGenerator = Math.random().toString(36).slice(2);
       </p>
       <fieldset class="mt-4">
         <legend class="sr-only">Notification method</legend>
-        <div class="grid grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
           <template v-for="(answer, answerIndex) in questionModal.answers">
             <label
               :for="idGenerator + questionIndex + answerIndex"

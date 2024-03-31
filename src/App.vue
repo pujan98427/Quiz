@@ -14,7 +14,7 @@ function closeModal() {
 }
 </script>
 <template>
-  <div className="justify-center flex items-center min-h-screen ">
+  <div className="justify-center flex items-center min-h-screen py-6">
     <template v-if="QuizStore.showQuestion">
       <IncorrectQuestionModal />
     </template>
