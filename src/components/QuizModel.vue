@@ -6,24 +6,36 @@ const props = defineProps({
   questionModal: {},
 });
 const QuizStore = useQuizStore();
-
 let selectedOptions = ref([]);
 
 function submitQuiz() {
-  const score = calculateScore();
+  const { score, incorrectQuestion } = calculateScore();
+
   QuizStore.score = score;
+
+  // Add all incorrect question to store
+  QuizStore.inCorrectQuestion = incorrectQuestion;
+
+  // hide scroll when modal is open
   document.body.style.overflow = "hidden";
+
+  //  open modal  to show final score
   QuizStore.scoreModal = true;
+
+  // make empty for final score
   selectedOptions.value = [];
+
+  //toggle question
+  QuizStore.showQuestion = true;
 }
 
 function calculateScore() {
   let score = 0;
+  let incorrectQuestion = [];
 
   const selectedAnswers = selectedOptions.value.map((selectOption, index) => {
     const selectedOptionIndex =
       props.questionModal[index].answers.indexOf(selectOption);
-
     return { questionIndex: index, answer: selectedOptionIndex };
   });
 
@@ -34,9 +46,16 @@ function calculateScore() {
     const selectedOption = selectedAnswer.answer;
     if (selectedOption === correctIndex) {
       score++;
+    } else {
+      const updatedQuestionModal = props.questionModal[questionIndex];
+      updatedQuestionModal.selectedOption = Number(selectedOption); // Update selectedOption;
+
+      if (!incorrectQuestion.includes(updatedQuestionModal)) {
+        incorrectQuestion.push(updatedQuestionModal);
+      }
     }
   });
-  return score;
+  return { score, incorrectQuestion };
 }
 
 const idGenerator = Math.random().toString(36).slice(2);

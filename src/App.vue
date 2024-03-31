@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
+import IncorrectQuestionModal from "@/components/IncorrectQuestionModal.vue";
 import QuizModel from "@/components/QuizModel.vue";
 import Modal from "@/components/Modal.vue";
 import { useQuizStore } from "@/stores/quizStore";
@@ -14,9 +15,13 @@ function closeModal() {
 </script>
 <template>
   <div className="justify-center flex items-center min-h-screen ">
+    <template v-if="QuizStore.showQuestion">
+      <IncorrectQuestionModal />
+    </template>
     <template
       v-for="(questionModal, index) in QuizStore.questionModals"
       :key="index"
+      v-else
     >
       <QuizModel :questionModal="questionModal" />
     </template>
