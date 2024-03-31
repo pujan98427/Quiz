@@ -3,12 +3,14 @@ import { ref } from "vue";
 import { useQuizStore } from "@/stores/quizStore";
 
 const props = defineProps({
-  questionModal: {},
+  questionModal: {
+    type: Object,
+  },
 });
 const QuizStore = useQuizStore();
-let selectedOptions = ref([]);
+let selectedOptions = ref<string[]>([]);
 
-function submitQuiz() {
+function submitQuiz(): void {
   const { score, incorrectQuestion } = calculateScore();
 
   QuizStore.score = score;
@@ -29,9 +31,9 @@ function submitQuiz() {
   QuizStore.showQuestion = true;
 }
 
-function calculateScore() {
-  let score = 0;
-  let incorrectQuestion = [];
+function calculateScore(): { score: number; incorrectQuestion: any[] } {
+  let score: number = 0;
+  let incorrectQuestion: any = [];
 
   const selectedAnswers = selectedOptions.value.map((selectOption, index) => {
     const selectedOptionIndex =

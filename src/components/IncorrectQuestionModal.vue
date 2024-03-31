@@ -3,8 +3,11 @@ import { ref } from "vue";
 import { useQuizStore } from "@/stores/quizStore";
 
 const props = defineProps({
-  questionModal: {},
+  questionModal: {
+    type: Object,
+  },
 });
+
 const QuizStore = useQuizStore();
 
 const idGenerator = Math.random().toString(36).slice(2);

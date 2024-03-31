@@ -8,7 +8,7 @@ const QuizStore = useQuizStore();
 
 QuizStore.fill();
 
-function closeModal() {
+function closeModal(): void {
   document.body.style.overflow = "auto";
   QuizStore.scoreModal = false;
 }
