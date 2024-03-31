@@ -19,7 +19,6 @@ function submitQuiz() {
 
 function calculateScore() {
   let score = 0;
-  console.log(score);
 
   const selectedAnswers = selectedOptions.value.map((selectOption, index) => {
     const selectedOptionIndex =

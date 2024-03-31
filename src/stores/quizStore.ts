@@ -10,7 +10,7 @@ export const useQuizStore = defineStore('QuizStore', {
   }),
   getters: {
     totalQuestion: (state) => {
-      return state.questionModals.length;
+      return state.questionModals.questionModals.length;
     }
   },
   actions: {
