@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import IncorrectQuestionModal from "@/components/IncorrectQuestionModal.vue";
-import QuizModel from "@/components/QuizModel.vue";
+import QuizModel from "@/components/QuizListModel.vue";
 import Modal from "@/components/Modal.vue";
 import { useQuizStore } from "@/stores/quizStore";
 const QuizStore = useQuizStore();
@@ -13,7 +13,9 @@ function closeModal(): void {
 }
 </script>
 <template>
-  <div className="justify-center flex items-center min-h-screen py-6">
+  <div
+    className="bg-white p-5 md:p-8 max-w-[666px] w-full space-y-8 shadow rounded-lg"
+  >
     <template v-if="QuizStore.showQuestion">
       <IncorrectQuestionModal />
     </template>
