@@ -25,6 +25,14 @@ const idGenerator = Math.random().toString(36).slice(2);
 </script>
 <template>
   <div class="">
+    <div class="absolute -top-4 left-10">
+      <p
+        class="pointed-clip rounded-t-lg text-xs font-medium text-center w-16 bg-[linear-gradient(30.59deg,_#E38415_20.8%,_#F59F18_84.66%)] text-white py-3"
+      >
+        {{ currentIndex + 1 }} / {{ props.questionModal.length + 1 }}
+      </p>
+    </div>
+
     <div class="space-y-6">
       <p class="text-lg font-medium text-gray-900">
         {{ props.questionModal[currentIndex].question }}
@@ -107,4 +115,14 @@ const idGenerator = Math.random().toString(36).slice(2);
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.pointed-clip {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 8px),
+    50% 100%,
+    0 calc(100% - 8px)
+  );
+}
+</style>

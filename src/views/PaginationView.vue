@@ -14,7 +14,7 @@ function closeModal(): void {
 </script>
 <template>
   <div
-    className="bg-white p-5 md:p-8 max-w-[599px] w-full space-y-8 shadow rounded-lg"
+    className="bg-white p-5 md:p-8 max-w-[599px] w-full space-y-8 shadow rounded-lg relative"
   >
     <template v-if="QuizStore.showQuestion">
       <IncorrectQuestionModal />
