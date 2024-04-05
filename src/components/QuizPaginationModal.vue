@@ -10,18 +10,57 @@ const props = defineProps({
 const QuizStore = useQuizStore();
 let currentIndex = ref<number>(0);
 let selectedOptions = ref<number | null>(null);
+let selectedAnswer = ref<number | null>(null);
+const listWrongQuestion = ref([]);
+const internalScore = ref(0);
 
-function submitQuiz() {}
+function submitQuiz() {
+  QuizStore.score = internalScore.value;
+  QuizStore.inCorrectQuestion = listWrongQuestion.value;
+  QuizStore.scoreModal = true;
+  QuizStore.showQuestion = true;
+}
 
-function fetchNextQuestion() {
+console.log(internalScore.value);
+console.log(listWrongQuestion);
+
+/**
+ * Updates the score and incorrectQuestion array based on the selectedIndex.
+ * @param selectedIndex - The index of the selected answer.
+ * @returns An object containing the updated score and incorrectQuestion array.
+ */
+function answered(e) {
+  selectedAnswer.value = Number(e.target.value);
+  const correctIndex = props.questionModal[currentIndex.value]["correctIndex"];
+  console.log(selectedAnswer.value, correctIndex);
+  console.log(typeof selectedAnswer.value, typeof correctIndex);
+
+  if (Number(selectedAnswer.value) === correctIndex) {
+    internalScore.value = internalScore.value + 1;
+  } else {
+    if (
+      !listWrongQuestion.value.includes(props.questionModal[currentIndex.value])
+    ) {
+      listWrongQuestion.value.push(props.questionModal[currentIndex.value]);
+    } else if (Number(selectedAnswer.value) === correctIndex) {
+      // If the correct answer is selected again, remove the earlier question
+      const indexToRemove = listWrongQuestion.value.indexOf(
+        props.questionModal[currentIndex.value]
+      );
+      if (indexToRemove !== -1) {
+        listWrongQuestion.value.splice(indexToRemove, 1);
+      }
+    }
+  }
+}
+
+function fetchNextQuestion(): void {
   currentIndex.value++;
   selectedOptions.value = null;
 }
-function fetchPreviousQuestion() {
+function fetchPreviousQuestion(): void {
   currentIndex.value--;
 }
-
-const idGenerator = Math.random().toString(36).slice(2);
 </script>
 <template>
   <div class="">
@@ -59,6 +98,7 @@ const idGenerator = Math.random().toString(36).slice(2);
                 :id="answerIndex"
                 :value="answerIndex"
                 v-model="selectedOptions"
+                @change="answered($event)"
                 class="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
               />
 
