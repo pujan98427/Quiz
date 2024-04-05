@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div className="justify-center flex items-center min-h-screen py-6">
+  <div className="justify-center flex items-center min-h-screen mx-4 py-6">
     <RouterView />
   </div>
 </template>

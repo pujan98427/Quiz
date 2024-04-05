@@ -10,7 +10,7 @@ import { RouterLink } from "vue-router";
     </div>
 
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[630px]">
-      <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12 mx-4">
+      <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
         <div>
           <h2
             class="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900"
