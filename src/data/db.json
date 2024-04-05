@@ -1,6 +1,257 @@
 {
   "questionModals": [
     {
+      "question": "Who gave the name 'Sagarmatha' to World's highest peak Mt. Everest?",
+      "answers": [
+        "Som Nath Sigdel",
+        "Chakrapani Chalise",
+        "Lekhnath Poudel",
+        "BabuRam Acharya"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "When was Children's day was observed First time in Nepal?",
+      "answers": [
+        "16th Falgun 2016 BS",
+        "16th Falgun 2018 BS",
+        "18th Falgun 2016 BS",
+        "18th Falgun 2018 BS"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Almost all the rivers of Nepal flows from North to South but one river flows from South to North. Name the river.",
+      "answers": [
+        "Indrawati River",
+        "Karmanasha river",
+        "Uttar Ganga River",
+        "Likhu River"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Name the Malla king who introduced copper coin in Nepal.",
+      "answers": [
+        "Ratna Malla",
+        "Mahindra Malla",
+        "Pratap Malla",
+        "Siddhi Narsingha Malla"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Who was the first Prime Minister after 2007 BS Democracy?",
+      "answers": [
+        "Mohan Shumsher",
+        "B.P. Koirala",
+        "Matrika Prasad Koirala",
+        "Tanka Prasad Acharya"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Who is the only athlete to bring Olympic medal to Nepal, a bronze medal?",
+      "answers": [
+        "Sita Rai",
+        "Bidhan Lama",
+        "Sangina Baidhya",
+        "Baikuntha Manandhar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Name the first woman Ambassador to other country from Nepal.",
+      "answers": [
+        "Binu Lohani",
+        "Manchhura Devi",
+        "Brinda Shah",
+        "Preksha Singh"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Where is the oldest bell and drum of Nepal situated?",
+      "answers": [
+        "Gorkha Palace",
+        "Bhaktapur Durbar Square",
+        "Lalitpur Durbar Square",
+        "Kathmandu Durbar Square"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "First man to be awarded 'Tribhuwan Puraskar'.",
+      "answers": [
+        "Nara Bahadur Bharati",
+        "Bala Krishna Sama",
+        "Laxmi Prasad Devkota",
+        "Bhim Nidhi Tiwari"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Name the first Nepali film in colour.",
+      "answers": [
+        "Sindur",
+        "Kumari",
+        "Juni",
+        "Paral ko Aago"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Where is the tallest bridge of Nepal?",
+      "answers": [
+        "Manthali, Ramechhap",
+        "Jiri, Dolakha",
+        "Modikhola, Parvat",
+        "Sindhuli"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What portion of the world is occupied by the wetland?",
+      "answers": [
+        "5.9%",
+        "6.2%",
+        "10%",
+        "3%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "How many places of Nepal have been declared wetlands (simsar) now?",
+      "answers": [
+        "Six",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "When did Tul Bahadur Pun, a Victoria Cross winner, pass away?",
+      "answers": [
+        "9 Baishakh, 2068",
+        "7 Baishakh, 2068",
+        "26 Baishakh, 2068",
+        "12 Baishakh, 2068"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What has the government of Nepal declared to observe the year 2010 AD as?",
+      "answers": [
+        "violence against dowry",
+        "violence against sex",
+        "violence against murder",
+        "violence against crime"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Who is the artist to create world record by filling colour on a 123 m long canvas on a single day?",
+      "answers": [
+        "Tilochan Gautam",
+        "Rabindra Manandhar",
+        "Tilak Manandhar",
+        "Kiran Manandhar"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "With an objective of conserving the culture and tradition of the Tamang people, where was the Tamang Museum established?",
+      "answers": [
+        "Taplejung",
+        "Rasuwa",
+        "Kaski",
+        "Mananag"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which is the conservation area first established in Nepal?",
+      "answers": [
+        "Annapurna Conservation Area",
+        "Makalu Barun Conservation Area",
+        "Koshi Tappu wildlife",
+        "Chitwan National Park"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "When was the Amali system eradicated?",
+      "answers": [
+        "1964 BS",
+        "1968 BS",
+        "1963 BS",
+        "1965 BS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "From which did music originate?",
+      "answers": [
+        "Yajur Ved",
+        "Rigz Ved",
+        "Sama Ved",
+        "Ramayan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What’s the most important book in the Muslim religion?",
+      "answers": [
+        "The Quran",
+        "The Dictionary",
+        "The Bible",
+        "The Chemistry text Book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What’s the capital of Ethiopia?",
+      "answers": [
+        "Cape Town",
+        "San Francisco",
+        "Abuja",
+        "Addis Ababa"
+      ],
+      "correctIndex": 3 
+    },
+    {
+      "question": "Into how many categories is the land classified on the basis of productivity?",
+      "answers": [
+        "5",
+        "4",
+        "6",
+        "2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Who was the father of Rana Prime Minister Mohan Shumsher?",
+      "answers": [
+        "Chandra Shumsher",
+        "Juddha Shumsher",
+        "Dev Shumsher",
+        "Padma Shumsher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "According to the Muluki Ain 2020, what was the maximum interest rate allowed in Nepal?",
+      "answers": [
+        "14%",
+        "13%",
+        "10%",
+        "12%"
+      ],
+      "correctIndex": 2
+    },
+  
+    {
       "question": "In which district is the ‘Fungfung’ waterfall?",
       "answers": ["Nuwakot", "Rasuwa", "Sindhupalchok", "Kapilvastu"],
       "correctIndex": 0
