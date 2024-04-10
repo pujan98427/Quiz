@@ -62,7 +62,7 @@ function fetchPreviousQuestion(): void {
         class="pointed-clip rounded-t-lg text-xs font-medium text-center w-16 bg-[linear-gradient(30.59deg,_#E38415_20.8%,_#F59F18_84.66%)] text-white py-3"
       >
         {{ currentIndex + 1 }} /
-        {{ props.questionModal.length + 1 }}
+        {{ props.questionModal.length }}
       </p>
     </div>
 
