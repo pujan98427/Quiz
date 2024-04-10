@@ -31,32 +31,36 @@ function submitQuiz(): void {
   QuizStore.showQuestion = true;
 }
 
+/**
+ * Calculate the score and the list of incorrect questions.
+ * @returns An object with the score and the list of incorrect questions.
+ */
 function calculateScore(): { score: number; incorrectQuestion: any[] } {
-  let score: number = 0;
-  let incorrectQuestion: any = [];
+  let score = 0;
+  let incorrectQuestion: any[] = [];
 
   const selectedAnswers = selectedOptions.value.map((selectOption, index) => {
     const selectedOptionIndex =
       props.questionModal[index].answers.indexOf(selectOption);
-    return { questionIndex: index, answer: selectedOptionIndex };
-  });
-
-  selectedAnswers.forEach((selectedAnswer) => {
-    const questionIndex = Number(selectedAnswer.questionIndex);
+    const questionIndex = Number(index);
     const question = props.questionModal[questionIndex];
     const correctIndex = question.correctIndex;
-    const selectedOption = selectedAnswer.answer;
-    if (selectedOption === correctIndex) {
-      score++;
-    } else {
-      const updatedQuestionModal = props.questionModal[questionIndex];
-      updatedQuestionModal.selectedOption = Number(selectedOption); // Update selectedOption;
 
-      if (!incorrectQuestion.includes(updatedQuestionModal)) {
-        incorrectQuestion.push(updatedQuestionModal);
-      }
+    const isCorrectAnswer = selectedOptionIndex === correctIndex;
+    const updatedQuestionModal = {
+      ...question,
+      selectedOption: selectedOptionIndex,
+    };
+
+    if (!isCorrectAnswer && !incorrectQuestion.includes(updatedQuestionModal)) {
+      incorrectQuestion.push(updatedQuestionModal);
     }
+
+    return isCorrectAnswer ? 1 : 0;
   });
+
+  score = selectedAnswers.reduce((acc, curr) => acc + curr, 0);
+
   return { score, incorrectQuestion };
 }
 

@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import { ref } from "vue";
-import { useQuizStore } from "@/stores/quizStore";
-const QuizStore = useQuizStore();
 </script>
 <template>
   <div
@@ -14,28 +11,48 @@ const QuizStore = useQuizStore();
 
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[630px]">
       <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
-        <div>
-          <form class="">
-            <label for="tquestion">Number of Questions:</label>
-            <input
-              type="number"
-              name="tquestion"
-              id="tquestion"
-              v-model="QuizStore.fetchQuestion"
-              class="block mt-2 w-full rounded-md border-0 px-3 py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              placeholder="Enter the number of questions"
-            />
+        <div class="px-4 py-5 sm:p-6">
+          <h2 class="text-2xl font-bold leading-9 tracking-tight text-gray-900">
+            Select number of question
+          </h2>
+          <div class="mt-2 max-w-xl text-sm text-gray-500">
+            <p>
+              Change the email address you want associated with your account.
+            </p>
+          </div>
+          <form class="mt-5 sm:flex sm:items-center">
+            <div class="w-full sm:max-w-xs">
+              <label for="tquestion" class="sr-only">tquestion</label>
+              <input
+                type="number"
+                name="tquestion"
+                id="tquestion"
+                class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                placeholder="Number..."
+              />
+            </div>
+            <button
+              type="submit"
+              class="mt-3 inline-flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:ml-3 sm:mt-0 sm:w-auto"
+            >
+              Save
+            </button>
           </form>
+        </div>
 
-          <div class="relative mt-7 mb-4">
+        <div class="relative">
+          <div class="absolute inset-0 flex items-center" aria-hidden="true">
             <div class="w-full border-t border-gray-200" />
           </div>
-          <h2
-            class="mb-5 text-xl font-bold leading-9 tracking-tight text-gray-900"
+          <div
+            class="relative flex justify-center text-sm font-medium leading-6"
           >
-            Select your preferred layout
-          </h2>
-          <div class="grid sm:grid-cols-2 gap-4">
+            <span class="bg-white px-6 text-gray-900">Or continue with</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="mt-10 grid sm:grid-cols-2 gap-4">
             <RouterLink
               :to="{ name: 'list' }"
               class="flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:ring-transparent"
@@ -56,7 +73,7 @@ const QuizStore = useQuizStore();
               </svg>
 
               <span class="text-sm font-semibold leading-6"
-                >List View</span
+                >Show All Questions</span
               ></RouterLink
             >
 

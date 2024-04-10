@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import IncorrectQuestionModal from "@/components/IncorrectQuestionModal.vue";
 import QuizModel from "@/components/QuizPaginationModal.vue";
-import Modal from "@/components/Modal.vue";
+import Modal from "@/components/ResultModal.vue";
 import { useQuizStore } from "@/stores/quizStore";
 const QuizStore = useQuizStore();
 

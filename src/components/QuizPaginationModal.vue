@@ -7,6 +7,7 @@ const props = defineProps({
     type: Object,
   },
 });
+
 const QuizStore = useQuizStore();
 let currentIndex = ref<number>(0);
 let selectedOptions = ref<number | null>(null);
@@ -21,35 +22,27 @@ function submitQuiz() {
   QuizStore.showQuestion = true;
 }
 
-console.log(internalScore.value);
-console.log(listWrongQuestion);
-
 /**
  * Updates the score and incorrectQuestion array based on the selectedIndex.
  * @param selectedIndex - The index of the selected answer.
  * @returns An object containing the updated score and incorrectQuestion array.
  */
 function answered(e) {
-  selectedAnswer.value = Number(e.target.value);
-  const correctIndex = props.questionModal[currentIndex.value]["correctIndex"];
-  console.log(selectedAnswer.value, correctIndex);
-  console.log(typeof selectedAnswer.value, typeof correctIndex);
+  const selectedIndex = Number(e.target.value);
+  const currentQuestion = props.questionModal[currentIndex.value];
+  const correctIndex = currentQuestion["correctIndex"];
 
-  if (Number(selectedAnswer.value) === correctIndex) {
-    internalScore.value = internalScore.value + 1;
+  if (selectedIndex === correctIndex) {
+    internalScore.value += 1;
+    const indexToRemove = listWrongQuestion.value.findIndex(
+      (question) => question === currentQuestion
+    );
+    if (indexToRemove !== -1) {
+      listWrongQuestion.value.splice(indexToRemove, 1);
+    }
   } else {
-    if (
-      !listWrongQuestion.value.includes(props.questionModal[currentIndex.value])
-    ) {
-      listWrongQuestion.value.push(props.questionModal[currentIndex.value]);
-    } else if (Number(selectedAnswer.value) === correctIndex) {
-      // If the correct answer is selected again, remove the earlier question
-      const indexToRemove = listWrongQuestion.value.indexOf(
-        props.questionModal[currentIndex.value]
-      );
-      if (indexToRemove !== -1) {
-        listWrongQuestion.value.splice(indexToRemove, 1);
-      }
+    if (!listWrongQuestion.value.includes(currentQuestion)) {
+      listWrongQuestion.value.push(currentQuestion);
     }
   }
 }
@@ -68,7 +61,8 @@ function fetchPreviousQuestion(): void {
       <p
         class="pointed-clip rounded-t-lg text-xs font-medium text-center w-16 bg-[linear-gradient(30.59deg,_#E38415_20.8%,_#F59F18_84.66%)] text-white py-3"
       >
-        {{ currentIndex + 1 }} / {{ props.questionModal.length + 1 }}
+        {{ currentIndex + 1 }} /
+        {{ props.questionModal.length + 1 }}
       </p>
     </div>
 
@@ -112,20 +106,19 @@ function fetchPreviousQuestion(): void {
         </div>
       </fieldset>
     </div>
-
+    <!-- :class="currentIndex > 0 ? 'justify-between' : 'justify-end'" -->
     <div
-      class="flex items-center"
-      :class="currentIndex > 0 ? 'justify-between' : 'justify-end'"
+      class="flex items-center justify-end"
       v-if="currentIndex < props.questionModal.length - 1"
     >
-      <button
+      <!-- <button
         type="submit"
         class="mt-8 rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
         @click="fetchPreviousQuestion"
         v-if="currentIndex > 0"
       >
         Previous
-      </button>
+      </button> -->
       <button
         type="submit"
         class="mt-8 rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
