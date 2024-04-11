@@ -1,13 +1,14 @@
 import { defineStore } from 'pinia'
+import {useLocalStorage} from '@vueuse/core'
 
 export const useQuizStore = defineStore('QuizStore', {
   state: () => ({
-      questionModals: [],
-      inCorrectQuestion: [],
-      scoreModal:false,
-      score: 0,
-      showQuestion:false,
-      fetchQuestion:null,
+      questionModals: useLocalStorage("quizStore:questionModals",[]), 
+      inCorrectQuestion:useLocalStorage("quizStore:inCorrectQuestion",[]),
+      scoreModal:useLocalStorage("quizStore:scoreModal",false),
+      score: useLocalStorage("quizStore:score",0),
+      showQuestion:useLocalStorage("quizStore:showQuestion",false),
+      fetchQuestion:useLocalStorage("quizStore:fetchQuestion",null),
     
   }),
   getters: {
