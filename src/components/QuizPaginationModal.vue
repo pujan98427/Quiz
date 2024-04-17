@@ -8,6 +8,8 @@ const props = defineProps({
   },
 });
 
+// console.log(props.questionModal);
+
 const QuizStore = useQuizStore();
 let currentIndex = ref<number>(0);
 let selectedOptions = ref<number | null>(null);
@@ -68,14 +70,14 @@ function fetchPreviousQuestion(): void {
 
     <div class="space-y-6">
       <p class="text-lg font-medium text-gray-900">
-        {{ props.questionModal[currentIndex].question }}
+        {{ props.questionModal[currentIndex]?.question }}
       </p>
       <fieldset class="mt-4">
         <legend class="sr-only">Notification method</legend>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6">
           <template
             v-for="(answer, answerIndex) in props.questionModal[currentIndex]
-              .answers"
+              ?.answers"
           >
             <label
               :for="answerIndex"
