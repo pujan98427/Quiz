@@ -25,13 +25,11 @@ export const useQuizStore = defineStore('QuizStore', {
       
       if(Array.isArray(allQuestions.questionModals)){
         if (this.fetchQuestion > 0 || null) {
-          console.log(true);
           const slicedQuestion = allQuestions.questionModals.sort(() => Math.random() - 0.5).slice(0, this.fetchQuestion );
           
-          console.log(slicedQuestion);
           
-          allQuestions = slicedQuestion
-          this.questionModals.questionModals =slicedQuestion
+          allQuestions  =  slicedQuestion
+          this.questionModals.questionModals = slicedQuestion
     
           
         }
