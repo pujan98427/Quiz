@@ -1,0 +1,565 @@
+{
+    "questionModals": [
+      {
+        "question": "In a mortar, the binding material is",
+        "answers": ["Cement", "Sand", "Surkhi", "cinder"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Wrought iron contains carbon upto",
+        "answers": ["0.25%", "0.75%", "1.25%", "2%"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Pick up the polymineralic rock from the following:",
+        "answers": ["Quartz sand", "Granite", "Magnesite", "Pure Gypsum"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Ultimate strength to cement is provided by",
+        "answers": ["Tricalcium silicate", "Di-calcium silicate", "Tri-calcium aluminate", "Tetra calcium alumino ferrite"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Elastomers can extend upto ....... times their original dimensions",
+        "answers": ["5", "7", "10", "100"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Bitumen felt is",
+        "answers": ["used as water proofing material", "used as damp proofing material", "made from bitumen and hessian fibres", "all of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "In the cement the compound quickest to react with water, is",
+        "answers": ["Tricalcium silicate", "Dicalcium silicate", "Tricalcium aluminate", "Tetra-calcium alumino-ferrite"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Bitumen felt is",
+        "answers": ["used as water proofing material", "used as damp proofing material", "made from bitumen and hessian fibres", "all of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The initial setting time of lime-pozzolana, is",
+        "answers": ["5 minutes", "30 minutes", "90 minutes", "120 minutes"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The clay to be used for manufacturing bricks for a large project, is dugout and allowed to weather throughout",
+        "answers": ["the monsoon", "the winter", "the summer", "not necessary"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The rocks which are formed due to cooling of magma at a considerable depth from earth's surface are called",
+        "answers": ["Plutonic rocks", "Hypabyssal rocks", "Volcanic rocks", "Igneous rocks"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Quartzite is a",
+        "answers": ["metamorphic rock", "argillaceous rock", "calcareous rock", "Igneous rocks"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The variety of pig iron used for manufacture of wrought iron, is",
+        "answers": ["Bessemer pig", "Grey or foundry pig", "White forge pig", "Mottled pig"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Sand stone is a",
+        "answers": ["metamorphic rock", "sedimentary rock", "calcareous rock", "Igneous rock"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Stainless steel contains",
+        "answers": ["18% of chromuim and 8% nickel", "8% of chromium and 18% of nickel", "12% of chromium and 36% of nickel", "36% of chromium and 12% of nickel"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Pick up the hypahypabyssal rock from the following:",
+        "answers": ["Dolerite", "Granite", "Basalt", "all of the above"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Kaolin is chemically classified as ",
+        "answers": ["metamorphic rock", "argillaceous rock", "calcareous rock", "Igneous rocks"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which one of the following is acid resistant asbestos:",
+        "answers": ["actinolite asbestos", "anthophylite asbestos", "crocidolite asbestos", "all of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Due to attack of dry rot, the timber",
+        "answers": ["cracks", "shrinks", "reduces to powder", "hardens"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Brittleness of cold is due to an excess of",
+        "answers": ["sulphur", "phosphorus", "silicon", "carbon"],
+        "correctIndex": 1
+      },
+      {
+        "question": "For the manufacture of Portland cement, the proportions of raw materials used, are",
+        "answers": ["lime 63% ; silica 22% ; other ingredients 15%", "silica 40% ; lime 40% ; other ingredients 20%", "lime 22% ; silica 63% ; other ingredients 15%", "silica 70% ; lime 20% ; other ingredients 10%"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Gniess is obtained from",
+        "answers": ["igneous rocks", "metamorphic rocks", "sedimentary rocks", "sedimentary metamorphic rocks"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The rocks formed by gradual deposition, are called",
+        "answers": ["sedimentary rocks", "igneous rocks", "metamorphic rocks", "none of the above"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Galvanising means covering iron with a thin coat of",
+        "answers": ["Zinc", "Copper", "Tin", "Coaltar"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Sewer pipes are made of",
+        "answers": ["earthen ware", "stone ware", "refractory clay", "terracota"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The commonly used colour pigment in paints, is",
+        "answers": ["ambers", "iron oxide", "lamp black", "all the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Varnish is a transparent or semi-transparent solution of resinuous substances in",
+        "answers": ["alcohol", "linseed", "turpentine", "all the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Initial setting time of cement for asbestos cement products should be not less than",
+        "answers": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The variety of pig iron used for the manufacture of steel by Bessemer process, is",
+        "answers": ["Bessemer pig", "Grey pig", "White forge pig", "Mottled pig"],
+        "correctIndex": 0
+      },
+      {
+        "question": "For filling cracks in masonry structures, the type of bitumen used, is",
+        "answers": ["cut-back bitumen", "bitumen-emulsion", "plastic bitumen", "blown bitumen"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Vanadium steel is generally used for",
+        "answers": ["railway switches and crossing", "axles and springs", "bearing balls", "magnets"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The process of manufacturing steel by heating short lengths of wrought iron bars mixed with charcoal in fire clay crucibles and collecting the molten iron into moulds, is known as",
+        "answers": ["Cementation process", "Crucible process", "Bessemer process", "Open hearth process"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The rocks in which clay predominates, are called",
+        "answers": ["sillicious rocks", "argillaceous rocks", "calcareous rocks", "igneous rocks"],
+        "correctIndex": 1
+      },
+      {
+        "question": "A badly mixed cement concrete results in",
+        "answers": ["segregation", "bleeding", "honey combing", "none of the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Chemically, marble is known as",
+        "answers": ["sillicious rock", "argillaceous rock", "calcareous rock", "metamorphic rock"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Inner part of a timber log surrounding the pith, is called",
+        "answers": ["sapwood", "cambium layer", "heart wood", "barkwood"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The filler used in plastic bitumen, is",
+        "answers": ["shale powder", "asbestos powder", "talc powder", "plastic powder"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Refractory bricks are used for",
+        "answers": ["retaining walls", "columns", "piers", "combustion chambers"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The rock generally used for roofing, is",
+        "answers": ["granite", "slate", "marble", "basalt"],
+        "correctIndex": 1
+      },
+      {
+        "question": "A piece of sawn timber whose cross-sectional dimensions exceed 5 cm, in one direction and 20 cm in the other direction, is called a",
+        "answers": ["cant", "deal", "baulk", "strip"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which type of cement from the following commonly used for canal linings",
+        "answers": ["sulphate resisting cement", "rapid hardening cement", "quick setting cement", "pozzuolana cement"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Mastic asphalt is generally used for",
+        "answers": ["damp proof course", "water proof layer", "both (a) and (b)", "none of these"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The most fire resistant paints are",
+        "answers": ["enamel paints", "aluminium paints", "cement paints", "asbestos paints"],
+        "correctIndex": 3
+      },
+      {
+        "question": "If P is the percentage of water required for normal consistency, water to be added for determination of initial setting time, is",
+        "answers": ["0.75P", "0.80P", "0.85P", "0.9P"],
+        "correctIndex": 2
+      },
+      {
+        "question": "A pug mill is used for",
+        "answers": ["softening brick earth", "moulding brick earth", "tempering brick earth", "all the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The commonly used lime in white washing, is",
+        "answers": ["white lime", "fat lime", "hydraulic lime", "quick lime"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Pick up the plutonic rock from the following:",
+        "answers": ["granite", "Dolerite", "obsidian", "basalt"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The lime which contains mainly calcium oxide and slacks with water, is",
+        "answers": ["white lime", "fat lime", "hydraulic lime", "quick lime"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Seasoning is",
+        "answers": ["a process of removing sap", "creosoting", "painting with sodium silicate", "coating with tar"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Rocks formed due to alteration of original structure due to heat and excessive pressure are called",
+        "answers": ["sedimentary rocks", "igneous rocks", "metamorphic rocks", "none of the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "For slaking of 10 kg of CaO, the theoretical amount of water is",
+        "answers": ["2.2 kg", "3.2 kg", "1.5 kg", "5.6 kg"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Clay and silt content in a good brick earth must be at least",
+        "answers": ["50%", "40%", "30%", "20%"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Bessemer process is used for the manufacture of",
+        "answers": ["Pig iron", "Wrought iron", "cast iron", "steel"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The portion of the brick without a triangular corner equal to half the width and half the length, is called",
+        "answers": ["queen closer", "king closer", "bevelled Closer", "squint brick"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which one of the following is an air binding material ?",
+        "answers": ["Gypsum", "Acid-resistant cement", "Quick lime", "all of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "A good quality stone absorbs water less than",
+        "answers": ["5%", "10%", "15%", "25%"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Plywood is made from",
+        "answers": ["common timber", "bamboo fibre", "teak wood", "sal wood"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Soundness test of cement determines",
+        "answers": ["quality of free lime", "ultimate strength", "durability", "all of the above"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Minimum of 40% of iron, is available in",
+        "answers": ["Magnetite", "Red haemetite", "Limonite", "Black band"],
+        "correctIndex": 3
+      },
+      {
+        "question": "If the iron ore contains clay as an impurity, the flux added during calcination, is",
+        "answers": ["clay", "lime stone", "argillaceous iron ore", "all of the above"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Cast steel is manufactured by",
+        "answers": ["Cementation process", "Crucible process", "Bessemer process", "Open hearth process"],
+        "correctIndex": 1
+      },
+      {
+        "question": "For the manufacture of plywood, veneers are placed so that grains of adjacent veneers",
+        "answers": ["run at right angles", "parallel", "inclined at 45°", "inclined at 60°"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Geologically, marble is known as",
+        "answers": ["sedimentary rock", "igneous rock", "metamorphic rock", "stratified rock"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The commonly used drying oil for oil paints, is",
+        "answers": ["kerosine oil", "accetate of lead", "linseed oil", "olive oil"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Initial setting of cement is caused due to",
+        "answers": ["Tri-calcium silicate", "Di-calcium silicate", "Tri-calcium aluminate", "Tetra calcium alumino ferrite"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The foliated structure is very common in",
+        "answers": ["sedimentary rocks", "igneous rocks", "metamorphic rocks", "none of the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Turpentine oil is used in paints as",
+        "answers": ["thinner", "vehicle", "base", "drier"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The hardest rock is",
+        "answers": ["marble", "diamond", "talc", "quartz"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Wrought iron is used for",
+        "answers": ["structural works in beams", "small sized water pipes", "columns and struts", "none of the above"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The timber having maximum resistance against white ants, is obtained from",
+        "answers": ["chir", "shisham", "sal", "teak"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Knots in timber are",
+        "answers": ["defects caused by crushing fibres", "splits radiating from the centre", "speckled strains", "signs of branches cut off"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Lime concrete is generally used for",
+        "answers": ["wall foundations", "flooring at ground level", "both (a) and (b)", "neither (a) nor (b)"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Bituminous fells are used for",
+        "answers": ["covering A.C. sheets", "covering sloping roofs", "D.P.C", "none of these"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Duco is one of the patent forms of",
+        "answers": ["emulsion paints", "bituminous paints", "aluminium paints", "cellulose paints"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Bulking of sand is caused due to",
+        "answers": ["surface moisture", "air voids", "viscosity", "all the above"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The normal curing period for lime mortar, is:",
+        "answers": ["1 day", "3 days", "7 days", "14 days"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The type of steel used for precision levelling staff, is",
+        "answers": ["Titanium steel", "Carbon steel", "Invar", "Stainless steel"],
+        "correctIndex": 3
+      },
+      {
+        "question": "German silver is an alloy of",
+        "answers": ["zinc, lead and nickel", "copper, nickel and zinc", "copper, brass and zinc", "brass, silver and zinc"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Dextrin is",
+        "answers": ["animal glue", "starch glue", "albumin glue", "rubber based adhesive"],
+        "correctIndex": 3
+      },
+      {
+        "question": "For the manufacture of stainless steel, steel is mixed with",
+        "answers": ["chromium", "nickel", "tungsten", "none of these"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Stones used for ornamental work must be",
+        "answers": ["soft", "hard", "light", "heavy"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The presence of original rounded surface on the manufactured piece of timber, is called",
+        "answers": ["Wane", "Torn grain", "Diagonal grain", "Chipmark"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Smith's test of stones is performed to find out",
+        "answers": ["the compressive strength of the stone", "the presence of soluble matter of stone", "the hardness of the stone", "the toughness of the stone"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The cracks caused by shrinkage of the exterior surface of the wood exposed to atmosphere, are called:",
+        "answers": ["radial shakes", "heart shakes", "wind cracks", "twisted fibres"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The process of decarbonising the pig iron completely and then adding proper percentage of carbon for manufacturing steel, is called",
+        "answers": ["Cementation process", "crucible process", "Bessemer process", "Open hearth process"],
+        "correctIndex": 0
+      },
+      {
+        "question": "In paints, the pigment is responsible for",
+        "answers": ["durability", "colour", "glassy face", "water repulsion"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The operation of removal of impurities or clay adhering to iron ores, is known as",
+        "answers": ["dressing", "calcination", "roasting", "smelting"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Portland cement manufactured from pure white chalk and clay but free from iron-oxide, is known as",
+        "answers": ["quick setting cement", "rapid hardening cement", "white cement", "low heat Portland cement"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Dry rot",
+        "answers": ["cracks the timber", "reduces the timber to powder", "reduces the strength of timber", "spoils the appearance of timber"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Pozzolana (or surkhi) is used in lime",
+        "answers": ["to impart hydraulicity", "to prevent shrinkage", "to decrease the cost of construction", "to decrease the setting time"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Mastic asphalt is normally used for",
+        "answers": ["Sound Insulation", "water proofing", "fire proofing", "none of these"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The standard size of brick as per NBC 109-1994 is",
+        "answers": ["270mm x 155mm x 97mm", "240mm x 115mm x 57mm", "215mm x 105mm x 57mm", "210mm x 190mm x 90mm"],
+        "correctIndex": 1
+      },
+      {
+        "question": "A piece of timber whose thickness and width are respectively 5 cm and 10 cm is called",
+        "answers": ["slate", "plank", "board", "strip"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Pig iron is manufactured from the ores by",
+        "answers": ["dressing", "calcination and roasting", "smelting", "all the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Age of a tree may be ascertained by",
+        "answers": ["radius of its stem", "circumference of its stem", "number of branches", "number of annual rings"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The portion of a brick cut to form angles other than right angles in plan, is known as",
+        "answers": ["queen closer", "king closer", "squint brick", "closer"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The initial setting time of hydraulic lime, is",
+        "answers": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"],
+        "correctIndex": 3
+      },
+      {
+        "question": "PVC stands for",
+        "answers": ["plastic very compact", "polythene vinyl chloride", "polythene vinyl carbon", "polythene vanadium carbide"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Generally wooden moulds are made from",
+        "answers": ["ply wood", "shisham wood", "deodar wood", "teak wood"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The cement becomes unsound by the presence of excess",
+        "answers": ["sulphur", "magnesia", "lime", "all of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The kiln which may work throughout the year, is",
+        "answers": ["Bull's trench kiln", "Clamp", "Hoffman's kiln", "all of the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "A volatile substance added to a paint to make its application easy and smooth, is known as",
+        "answers": ["base", "solvent", "vehicle", "all of the above"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The percentage of water for normal consistency, is",
+        "answers": ["10% to 20%", "20% to 25%", "25% to 35%", "35% to 45%"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Bitumen is generally obtained from",
+        "answers": ["synthetic material", "organic material", "petroleum product", "coal"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The steel which contains fissures and cavities, is manufactured by",
+        "answers": ["Cementation process", "Crucible process", "Bessemer process", "Open hearth process"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Pick up the volcanic rock from the following:",
+        "answers": ["Granite", "Dolerite", "Basalt", "all of the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "In stone masonry, stones (stratified rocks) are so placed that the direction of pressure to the plane of bedding is",
+        "answers": ["right angles", "parallel", "45°", "60°"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The most durable varnish is",
+        "answers": ["water varnish", "spirit varnish", "turpentine varnish", "oil varnish"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Softer variety of steel may be obtained by",
+        "answers": ["Cementation process", "Open hearth process", "Bessemer process", "crucible process"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Strength of cement concrete primarily depends upon",
+        "answers": ["quality of water", "quantity of aggregate", "quantity of cement", "water-cement ratio"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Rapid hardening cement contains",
+        "answers": ["Tri-calcium silicate", "Tri-calcium aluminate", "Tetra-calcium alumino-ferrite", "Dicalcium silicate"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The cast iron when heated to red heat with powdered red haemetite in an oven for increasing its toughness, is converted to",
+        "answers": ["grey cast iron", "white cast iron", "mottled cast iron", "toughed cast iron"],
+        "correctIndex": 2
+      }
+    ]
+  }
+  

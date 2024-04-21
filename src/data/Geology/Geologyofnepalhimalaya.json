@@ -1,0 +1,429 @@
+{
+    "questionModals": [
+      {
+        "question": "What is the scientific study of the Earth, its materials, processes, and history called?",
+        "answers": ["Geography", "Geology", "Metrology", "Biology"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which branch of geology focuses on the study of Earth's interior, including its composition, structure, and dynamics?",
+        "answers": ["Geophysics", "Petrology", "Geomorphology", "Seismology"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the branch of geology that studies the processes and landforms on the Earth's surface?",
+        "answers": ["Geophysics", "Petrology", "Geomorphology", "Seismology"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which branch of geology focuses on the study of rocks, their origin, composition, and distribution?",
+        "answers": ["Geophysics", "Petrology", "Geomorphology", "Paleontology"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which branch of geology deals with the study of Earth's history and the evolution of life forms through time?",
+        "answers": ["Stratigraphy", "Paleontology", "Tectonics", "Seismology"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which branch of geology involves the study of Earth's water resources, including groundwater and surface water?",
+        "answers": ["Hydrogeology", "Oceanography", "Glaciology", "Climatology"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which branch of geology focuses on the study of the Earth's past climates and their impact on geological processes?",
+        "answers": ["Environmental geology", "Paleoclimatology", "Geobiology", "Seismology"],
+        "correctIndex": 1
+      },
+      {
+        "question": "How is geologic time divided into major intervals for the purpose of studying Earth's history?",
+        "answers": ["Epochs", "Periods", "Millennia", "Seconds"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which era of the geologic time scale is known as the Age of Dinosaurs?",
+        "answers": ["Cenozoic Era", "Mesozoic Era", "Paleozoic Era", "Precambrian Era"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which of the following is NOT a component of the hydrologic cycle?",
+        "answers": ["Evaporation", "Photosynthesis", "Condensation", " Transpiration"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the primary driving force behind the hydrologic cycle?",
+        "answers": ["Gravity", "Wind", "Sun's Energy", " Earth Rotation"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The continuous process by which rocks are transformed from one type to another over geological time scales is known as:",
+        "answers": ["Weathering", "Erosion", "Deposition", "Rock Cycle"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which of the following processes is NOT involved in the rock cycle?",
+        "answers": ["Melting", "Compaction", "Subduction", "Fossilization"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which eon represents the longest span of geological time in Earth's history?",
+        "answers": ["Phanerozoic Eon", "Proterozoic Eon", "Archean Eon", "Hadean Eon"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The process by which water vapor in the atmosphere condenses to form clouds and eventually falls to the Earth's surface as precipitation is called:",
+        "answers": ["Evaporation", "Transpiration", "Condensation", "Sublimation"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which of the following is NOT a type of sedimentary rock?",
+        "answers": ["Sandstone", "Phyllite", "Limestone", "Shale"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which process involves the breakdown of rocks and minerals into smaller particles through physical, chemical, or biological means?",
+        "answers": ["Sandstone", "Phyllite", "Limestone", "Shale"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the term for the process by which sediments are compacted and cemented together to form sedimentary rocks?",
+        "answers": ["Lithification", "Crystallization", "Subduction", "Fossilization"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What type of rock is formed from the accumulation of organic remains such as shells, coral, and plant debris?",
+        "answers": ["Sandstone", "Shale", "Limestone", "Conglomerate"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The process by which sedimentary rocks are uplifted, eroded, transported, and deposited to form new sedimentary rocks is known as:",
+        "answers": ["Erosion", "Weathering", "Deposition", "Sedimentation"],
+        "correctIndex": 3
+      },
+      {
+        "question": "What is the outermost layer of the Earth called?",
+        "answers": ["Mantle", "Crust", "Lithosphere", "Core"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which layer of the Earth is composed primarily of solid iron and nickel?",
+        "answers": ["Mantle", "Outer Core", "Inner Core", "Asthenosphere"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The lithosphere is made up of the Earth's:",
+        "answers": ["Outermost layer", "Upper mantle", "Lower mantle", "Outer core"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The asthenosphere is located in the:",
+        "answers": ["Outermost layer", "Upper mantle", "Lower mantle", "Outer core"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which layer of the Earth is responsible for the generation of Earth's magnetic field?",
+        "answers": ["Outermost layer", "Upper mantle", "Lower mantle", "Outer core"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The temperature and pressure inside the Earth:",
+        "answers": [" Increase with depth", "Decrease with depth", "Remain constant throughout", "Fluctuate randomly"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which of the following statements about the Earth's mantle is true?",
+        "answers": [" It is completely solid", "It is completely molten", "It is partially molten", "It is composed of water and ice"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The Mohorovičić Discontinuity (Moho) separates the:",
+        "answers": ["Crust from the mantle", "Mantle from the outer core", "Outer core from the inner core", " Lithosphere from the asthenosphere"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which part of the Earth's interior exhibits plastic flow and convection currents?",
+        "answers": ["Lithosphere", "Inner Core", "Outer Core", "Asthenosphere"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The thickest layer of the Earth is the:",
+        "answers": ["Crust", "Mantle", "Inner Core", "Outer core"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which layer of the Earth is responsible for generating tectonic plate movements?",
+        "answers": [" Lithosphere", "Asthenosphere", "Inner Core", "Outer core"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The boundary between the Earth's mantle and core is known as the:",
+        "answers": ["Mohorovičić Discontinuity", "Gutenberg Discontinuity", "Lehmann Discontinuity", "Conrad Discontinuity"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The pressure inside the Earth increases by approximately _____ atmospheres for every kilometer of depth.",
+        "answers": ["1", "10", "100", "1000"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The temperature at the Earth's core is estimated to be around _____ degrees Celsius.",
+        "answers": ["1000", "6000", "10000", "20000"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The process by which heat is transferred from the Earth's interior to the surface through the movement of molten rock is known as:",
+        "answers": ["Conduction", "Convection", "Radiation", "Sublimation"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the primary cause of earthquakes?",
+        "answers": ["Volcanic eruptions", "Plate tectonics", "Meteorite impacts", "Human activities"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which type of fault occurs when rocks on either side of the fault move horizontally past each other?",
+        "answers": ["Normal fault", "Reverse fault", "Strike-slip fault", "Thrust fault"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The mechanism of an earthquake involves the sudden release of:",
+        "answers": ["Volcanic gases", "Heat Energy", "Potential energy", "Radioactive particles"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The magnitude of an earthquake is a measure of:",
+        "answers": ["The energy released by the earthquake", " The depth of the earthquake's focus", "The duration of shaking caused by the earthquake", "The distance from the epicenter to the recording station"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The Richter scale is commonly used to measure the magnitude of earthquakes. Each whole number increase on the Richter scale represents a ____ times increase in amplitude of seismic waves.",
+        "answers": ["1", "10", "100", "1000"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Liquefaction is a phenomenon that occurs during earthquakes, where:",
+        "answers": ["Rocks become more rigid and resistant to deformation", "Soil and sediment lose their strength and behave like liquids", "Groundwater levels rise suddenly", "Volcanic ash covers the landscape"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which of the following statements about earthquakes in Nepal is true?",
+        "answers": ["Nepal is not prone to earthquakes due to its mountainous terrain", "The 2015 earthquake in Nepal had a magnitude of over 7.5", "Earthquakes in Nepal are primarily caused by volcanic activity", "The Kathmandu Valley is located in a seismically inactive region"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which type of seismic wave is the fastest and can travel through solids, liquids, and gases?",
+        "answers": ["P waves", "S waves", "Surface waves", "Rayleigh waves"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The point within the Earth where an earthquake originates is called the:",
+        "answers": ["Epicenter", "Focus", "Hypocenter", "All of the above"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The Mercalli intensity scale measures the intensity of an earthquake based on:",
+        "answers": ["The amount of energy released", "The amplitude of seismic waves", "The damage caused and felt by people", "The distance from the epicenter"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which region of Nepal is most susceptible to earthquakes due to its location along the Himalayan mountain range?",
+        "answers": ["Terai region", "Kathmandu Valley", "Lumbini region", "Annapurna region"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The 2015 earthquake in Nepal occurred along which major fault system?",
+        "answers": ["San Andreas Fault", "Ring of Fire Fault", "Main Frontal Thrust", "Alpine Fault"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the term for the seismic waves that travel along the Earth's surface and cause the most damage during an earthquake?",
+        "answers": ["P waves", "S waves", "Love waves", "Rayleigh waves"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Earthquakes can trigger secondary hazards such as:",
+        "answers": ["Landslides", "Tsunamis", "Liquefaction", "All of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The Modified Mercalli Intensity (MMI) scale ranges from:",
+        "answers": ["0 to 10", "0 to 12", "1 to 10", "1 to 12"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The National Seismological Centre (NSC) in Nepal was established to monitor the seismicity of the country in",
+        "answers": ["1957 AD", "1978 AD", "1995 AD", "2002 AD"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which institution played a significant role in establishing early seismological monitoring infrastructure in Nepal?",
+        "answers": ["Nepal Geological Society", "Nepal Academy of Science and Technology (NAST)", "Department of Mines and Geology", "National Seismological Centre (NSC)"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which event prompted significant advancements in seismological monitoring and research in Nepal?",
+        "answers": ["The 1934 Bihar-Nepal earthquake", "The 1988 Nepal earthquake", " The 1994 Far-Western Nepal earthquake", "The 2015 Gorkha earthquake"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which international organization has collaborated with Nepal in the establishment and development of seismological monitoring infrastructure?",
+        "answers": ["United Nations Educational, Scientific and Cultural Organization (UNESCO)", "United States Geological Survey (USGS)", "International Seismological Centre (ISC)", "Asian-Mediterranean Seismological Centre (AMSC)"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The first seismic network in Nepal was primarily focused on monitoring:",
+        "answers": ["Volcanic activity", "Glacial movements", " Landslides", "Earthquakes"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which technology has revolutionized seismological monitoring by providing real-time data transmission and analysis capabilities?",
+        "answers": ["Analog seismographs", "Digital seismographs", "Satellite imagery", "Ground-penetrating radar"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The collaboration between Nepal and international partners in seismological monitoring aims to",
+        "answers": ["Predict earthquakes with precision", "Reduce the impact of earthquakes through early warning systems", "Prevent earthquakes from occurring", "Modify earthquake-prone areas to be less vulnerable"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which geological process is primarily responsible for the formation of river valleys and canyons?",
+        "answers": ["Glaciation", "Erosion", "Volcanism", "Deposition"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Groundwater primarily interacts with the Earth's subsurface through processes such as:",
+        "answers": ["Weathering and erosion", "Percolation and infiltration", "Freezing and thawing", "Evaporation and condensation"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which type of glacier flows downhill through valleys, carving out U-shaped valleys?",
+        "answers": ["Alpine glacier", "Continental glacier", "Cirque glacier", "Tidewater glacier"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Wind erosion primarily shapes landscapes through the process of:",
+        "answers": ["Abrasion", "Corrosion", "Freeze-thaw action", "Mass wasting"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The geological feature formed by wind-blown sand accumulation is known as:",
+        "answers": ["A moraine", " A drumlin", "A sand dune", "A fjord"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The melting of glaciers can lead to the formation of:",
+        "answers": ["Meanders", "Eskers", "Kettles", " Floodplains"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which type of glacier flows outward in all directions from a central dome?",
+        "answers": ["Alpine glacier", "Continental glacier", "Hanging glacier", "Piedmont glacier"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The erosional feature produced by the scouring action of a glacier is called a:",
+        "answers": ["Fjord", "Cirque", "Esker", "Kame"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which of the following features is NOT typically associated with karst topography?",
+        "answers": ["Sinkholes", "Caves", "Eskers", "Springs"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The formation of stalactites and stalagmites in caves is primarily due to:",
+        "answers": ["Wind erosion", "Glacial deposition", "Chemical weathering", "Mass wasting"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The process by which groundwater dissolves and carries away minerals from rocks is called:",
+        "answers": ["Percolation", "Infiltration", "Leaching", "Precipitation"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The geological term for the area where water infiltrates into the ground to recharge an aquifer is:",
+        "answers": ["Recharge zone", "Discharge Zone", "Aquitard", "Aquiclude"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which of the following landforms is NOT typically formed by wind erosion?",
+        "answers": ["Sand dunes", "Loess deposits", "V-shaped valleys", "Yardangs"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The process of soil erosion which removes soil in thin, uniform layers by raindrop impact and shallow surface water flow is known as:",
+        "answers": ["Gully erosion", "Rill erosion", "Mass wasting", "Sheet erosion"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which of the following is NOT a type of groundwater flow pattern?",
+        "answers": ["Radial flow", "Laminar flow", "Dendritic flow", "Confined flow"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The movement of glaciers erodes the landscape primarily through:",
+        "answers": ["Plucking and abrasion", "Corrosion and dissolution", "Freeze-thaw action", "Mass wasting"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The geological feature formed by the accumulation of sediment at the terminus of a glacier is called a:",
+        "answers": ["Moraine", "Cirque", "Drumlin", "Kettle"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which tectonic plate boundary is responsible for the uplift of the Himalayan mountain range?",
+        "answers": ["Divergent boundary", "Convergent boundary", "Transform boundary", "Subduction boundary"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The Great Himalayas, also known as the High Himalayas or Inner Himalayas, are characterized by:",
+        "answers": ["Young fold mountains", "Extensive plateaus", "Deep river valleys", "Basaltic lava flows"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The Siwalik Range, also known as the Outer Himalayas, is primarily composed of:",
+        "answers": ["Metamorphic rocks", "Ignious rocks", "Sedimentary rocks", "Volcanic rocks"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The physiographic diversity of the Nepal Himalaya is influenced by:",
+        "answers": ["Climate variability", "Tectonic activity", "Glacial processes", "All of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The tectonic forces responsible for the ongoing uplift of the Himalayas are primarily:",
+        "answers": ["Compression and folding", "Extension and faulting", "Erosion and deposition", "Subduction and volcanic activity"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The Himalayan orogeny has resulted in the formation of:",
+        "answers": ["Parallel mountain ranges", "Linear valleys", "Deep river gorges", "All of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The Himalayan mountain building process is still ongoing and is characterized by:",
+        "answers": [" Rapid uplift rates", "Stable tectonic conditions", "Declining erosion rates", "Limited seismic activity"],
+        "correctIndex": 0
+      },
+      {
+        "question": "The tectonic zone characterized by the highest peaks and intense folding and faulting is known as:",
+        "answers": ["Lesser Himalayas", "Great Himalayas", "Siwalik range", "Terai region"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The geological structure primarily associated with the Great Himalayas is:",
+        "answers": ["Anticlines", "Synclines", "Thrust faults", "Normal faults"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The youngest and structurally least complex tectonic zone in the Nepal Himalaya is:",
+        "answers": ["Lesser Himalayas", "Great Himalayas", "Siwalik range", "Terai region"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The tectonic deformation observed in the Siwalik Range is primarily:",
+        "answers": ["Faulting", "Folding", "Melting", "Shearing"],
+        "correctIndex": 0
+      }
+   ]
+}
