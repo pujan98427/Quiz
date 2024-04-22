@@ -9,6 +9,7 @@ export const useQuizStore = defineStore("QuizStore", {
     score: useLocalStorage("quizStore:score", 0),
     showQuestion: useLocalStorage("quizStore:showQuestion", false),
     fetchQuestion: useLocalStorage("quizStore:fetchQuestion", null),
+    globalSelectedQuestionModal: null,
   }),
   getters: {
     totalQuestion: (state) => {
@@ -17,25 +18,50 @@ export const useQuizStore = defineStore("QuizStore", {
   },
   actions: {
     async fill() {
-      const db = await import("@/data/db.json");
-      const allQuestions = db.default;
+      let allQuestions;
 
-      if (Array.isArray(allQuestions.questionModals)) {
+      // Determine which JSON file to import based on the selected option
+      switch (this.globalSelectedQuestionModal) {
+        case 1:
+          allQuestions = await import("@/data/db.json");
+          break;
+        case 2:
+          allQuestions = await import("@/data/Geology/StructuralGeology.json");
+          break;
+        case 3:
+          allQuestions = await import(
+            "@/data/Geology/Geologyofnepalhimalaya.json"
+          );
+          break;
+        case 4:
+          allQuestions = await import("@/data/Buildingmaterials.json");
+          break;
+        default:
+          // Default case if none of the specific cases match
+          allQuestions = await import("@/data/db.json");
+          break;
+      }
+
+      // Extract questionModals from imported data
+      const questionModals = Array.isArray(allQuestions.questionModals)
+        ? allQuestions.questionModals
+        : [];
+
+      if (questionModals.length > 0) {
         if (this.fetchQuestion !== null && this.fetchQuestion > 0) {
-          const slicedQuestions = allQuestions.questionModals
+          // Slice and shuffle questions if fetchQuestion is specified
+          const slicedQuestions = questionModals
             .sort(() => Math.random() - 0.5)
             .slice(0, this.fetchQuestion);
 
-          // Wrap sliced questions in an object with the same structure as allQuestions
-          const slicedQuestionsObject = { questionModals: slicedQuestions };
-
-          // Assign the wrapped sliced questions to this.questionModals
-          this.questionModals = slicedQuestionsObject;
+          // Update questionModals with sliced questions
+          this.questionModals = { questionModals: slicedQuestions };
         } else {
-          this.questionModals = allQuestions;
+          // Update questionModals with all questions
+          this.questionModals = { questionModals };
         }
       } else {
-        console.error("Data loaded from db.json is not an array.");
+        console.error("No questions found in the loaded data.");
       }
     },
   },

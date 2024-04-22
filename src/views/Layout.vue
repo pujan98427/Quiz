@@ -1,8 +1,32 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import { ref } from "vue";
+import { computed, ref, watch } from "vue";
 import { useQuizStore } from "@/stores/quizStore";
+import SelectField from "@/components/SelectField.vue";
 const QuizStore = useQuizStore();
+const options = [
+  {
+    id: 1,
+    title: "General",
+  },
+  {
+    id: 2,
+    title: "Structural Geology",
+  },
+
+  {
+    id: 3,
+    title: "Building Materials",
+  },
+  {
+    id: 4,
+    title: "Geology of Nepal",
+  },
+];
+let selectedQuestionModal = ref(1);
+watch(selectedQuestionModal, () => {
+  QuizStore.globalSelectedQuestionModal = selectedQuestionModal.value;
+});
 </script>
 <template>
   <div
@@ -15,16 +39,28 @@ const QuizStore = useQuizStore();
     <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[630px]">
       <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
         <div>
-          <form class="">
-            <label for="tquestion">Number of Questions:</label>
-            <input
-              type="number"
-              name="tquestion"
-              id="tquestion"
-              v-model="QuizStore.fetchQuestion"
-              class="block mt-2 w-full rounded-md border-0 px-3 py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              placeholder="Enter the number of questions"
-            />
+          <form class="space-y-6">
+            <fieldset>
+              <label for="tquestion">Number of Questions:</label>
+              <input
+                type="number"
+                name="tquestion"
+                id="tquestion"
+                v-model="QuizStore.fetchQuestion"
+                class="block mt-2 w-full rounded-md border-0 px-3 py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                placeholder="Enter the number of questions"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="tquestion">Select question Modal</label>
+              <SelectField
+                :lists="options"
+                v-model="selectedQuestionModal"
+                valueKey="id"
+                nameKey="title"
+                class="mt-1.5"
+              />
+            </fieldset>
           </form>
 
           <div class="relative mt-7 mb-4">
