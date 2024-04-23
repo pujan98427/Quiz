@@ -1,0 +1,369 @@
+{
+    "questionModals": [
+      {
+        "question": "What is structural geology primarily concerned with?",
+        "answers": ["Studying the chemical composition of rocks",
+        "Analyzing the texture of sedimentary rocks", 
+        "Investigating the deformation of rocks and the forces that cause it", 
+        "Examining the fossil content of rocks"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Structural geology plays a crucial role in:",
+        "answers": ["Identifying mineral resources", "Understanding earthquake mechanics", " Interpreting past climate conditions", "Analyzing ocean currents"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The principles of structural geology are used in various fields such as:",
+        "answers": ["Civil engineering and construction", "Meteorology and weather forecasting", "Astronomy and space exploration", "Botany and plant physiology"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which of the following is NOT a primary goal of structural geology?",
+        "answers": ["Understanding the formation of mountains and valleys", 
+        "Identifying potential sites for oil and gas exploration", 
+        "Analyzing the causes and effects of landslides", 
+        "Studying the behavior of glaciers"],
+        "correctIndex": 3
+      },
+      {
+        "question": "What is the primary purpose of a geological map?",
+        "answers": ["To show the distribution of vegetation in an area", 
+        "To display the topographic features of a region", 
+        "To represent the distribution of different rock types and geological structures", 
+        "To indicate the location of major cities and roads"],
+        "correctIndex": 2
+      },
+      {
+        "question": "In a geological cross-section, what does the vertical axis typically represent?",
+        "answers": [" Longitude", 
+        "Elevation", 
+        "Rock type", 
+        "Geological time"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The orientation of a line in three-dimensional space is described by its:",
+        "answers": ["Dip and strike", 
+        "Trend and plunge", 
+        "Latitude and longitude", 
+        "Height and width"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The dip of a geological plane refers to:",
+        "answers": ["The angle of inclination from the horizontal", 
+        "The angle of inclination from the vertical", 
+        "The direction of the rock layer's movement", 
+        "The thickness of the rock layer"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What instrument is commonly used to measure the orientation of geological features in the field?",
+        "answers": ["Geological compass", 
+        "Microscope", 
+        "Spectrometer", 
+        "Seismograph"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Stereographic projection is a method used to:",
+        "answers": ["Create three-dimensional models of geological structures", 
+        "Display the orientation of geological features on a two-dimensional surface", 
+        "Analyze seismic waves during earthquakes", 
+        "Measure the thickness of sedimentary rock layers"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Stress in geology refers to",
+        "answers": ["Pressure applied to a rock unit", 
+        "Movement of tectonic plates", 
+        "Chemical reactions within rocks", 
+        "Erosion caused by wind and water"],
+        "correctIndex": 0
+      },
+      {
+        "question": "When stress is applied in two dimensions, the resulting strain can be described as:",
+        "answers": ["Tensional", 
+        "Compressional", 
+        "Shear", 
+        "All of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "How is the Mohr circle used in geology?",
+        "answers": ["To measure the thickness of sedimentary layers", 
+        "To analyze earthquake magnitude", 
+        "To determine the orientation of geological features", 
+        "To predict rock failure under different stress conditions"],
+        "correctIndex": 3
+      },
+      {
+        "question": "What does the strike of a geological plane represent?",
+        "answers": [" The angle of inclination from the horizontal", 
+        "The angle of inclination from the vertical", 
+        "The horizontal direction of the plane's intersection with the ground surface", 
+        "The vertical direction of the plane's intersection with the ground surface"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Stereographic projection is particularly useful for analyzing the orientation of:",
+        "answers": ["Volcanic eruptions", 
+        "Sedimentary rock layers", 
+        "Fault planes and fractures", 
+        "Glacial deposits"],
+        "correctIndex": 2
+      },
+      {
+        "question": "In a geological map legend, what do different colors or patterns typically represent?",
+        "answers": ["Elevation changes", 
+        "Geological formations or rock types", 
+        "Vegetation types", 
+        "Population density"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Stress in geology is commonly expressed in units of:",
+        "answers": ["Newtons","Pascals","Joules","Watts"],
+        "correctIndex": 1
+      },
+      {
+        "question": "When a material undergoes compression, it experiences:",
+        "answers": ["Lengthening or extension", 
+        "Shortening or contraction", 
+        "Shearing or twisting", 
+        "All of the above"],
+        "correctIndex": 1
+      },
+      {
+        "question": "The principal stresses acting on a rock mass can be represented as points on the:",
+        "answers": ["Cartesian plane", 
+        "Stereographic projection", 
+        "Mohr circle", 
+        "Geologic compass"],
+        "correctIndex": 2
+      },
+      {
+        "question": "The angle between the Mohr stress circle and the normal stress axis represents:",
+        "answers": ["Shear stress", 
+        "Tensile stress", 
+        "Compressive stress", 
+        "Normal stress"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Mohr circle analysis is commonly used in:",
+        "answers": ["Seismology", 
+        "Geotechnical engineering", 
+        "Paleontology", 
+        "Climatology"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which of the following is an example of a primary structure in sedimentary rocks?",
+        "answers": ["Fault", 
+        "Fold", 
+        "Ripple marks", 
+        "Shear zone"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Cross-bedding, a common primary structure, is formed by:",
+        "answers": ["Folding and faulting", 
+        "Horizontal sedimentary layering", 
+        "The migration of sand dunes or ripples", 
+        "Subduction of tectonic plates"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which of the following primary structures is often used to determine the original top and bottom of a sedimentary sequence?",
+        "answers": ["Joints", 
+        "Veins", 
+        "Graded bedding", 
+        "Unconformities"],
+        "correctIndex": 3
+      },
+      {
+        "question": "An unconformity represents:",
+        "answers": ["A gap in the geologic record due to erosion or non-deposition", 
+        "A continuous sequence of sedimentary layers", 
+        "A fault zone separating two rock units", 
+        "An intrusive igneous body cutting across sedimentary layers"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which of the following is NOT a type of unconformity?",
+        "answers": ["Angular unconformity", 
+        "Nonconformity", 
+        "Parallel unconformity", 
+        "Disconformity"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What geological phenomenon do folds primarily result from?",
+        "answers": ["Volcanic eruptions", 
+        " Earthquakes", 
+        "Tectonic forces", 
+        "Weathering"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which type of fold is characterized by a steeply inclined axial plane and limbs that dip away from the axis?",
+        "answers": ["Symmetrical fold", 
+        "Asymmetrical fold", 
+        "Overturned fold", 
+        "Recumbent fold"],
+        "correctIndex": 2
+      },
+      {
+        "question": "A syncline is a type of fold that exhibits:",
+        "answers": ["Convex upward curvature", 
+        "Convex downward curvature", 
+        "Horizontal layers", 
+        "Vertical layers"],
+        "correctIndex": 1
+      },
+      {
+        "question": "A monocline is characterized by:",
+        "answers": ["A single steeply dipping limb", 
+        "Symmetrical limbs dipping away from the axis", 
+        "Nearly horizontal layers with a step-like bend", 
+        "An overturned limb with a horizontal axis"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What geological process is responsible for the formation of faults?",
+        "answers": ["Erosion", 
+        "Weathering", 
+        "Deformation", 
+        "Volcanism"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Faults are commonly associated with which type of stress in the Earth's crust?",
+        "answers": ["Compressional stress", 
+        "Tensional stress", 
+        "Shear stress", 
+        "Hydrostatic stress"],
+        "correctIndex": 2
+      },
+      {
+        "question": "A fault in which the hanging wall moves downward relative to the footwall is called a",
+        "answers": ["Normal fault", 
+        "Reverse fault", 
+        "Strike-slip fault", 
+        "Thrust fault"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which type of fault has a nearly vertical fault plane with little or no horizontal displacement?",
+        "answers": ["Normal fault", 
+        "Reverse fault", 
+        "Strike-slip fault", 
+        "Oblique-slip fault"],
+        "correctIndex": 2
+      },
+      {
+        "question": "In a reverse fault, the hanging wall moves:",
+        "answers": ["Downward relative to the footwall", 
+        "Upward relative to the footwall", 
+        "Horizontally relative to the footwall", 
+        "In a rotational motion"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What feature is commonly associated with strike-slip faults?",
+        "answers": ["Fault scarp", 
+        "Fault breccia", 
+        "Fault gouge", 
+        "Fault block"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What term describes fractures in rocks along which there has been no significant movement?",
+        "answers": ["Faults", "Folds","Joints","Thrusts"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which type of joint occurs as a single fracture in the rock mass?",
+        "answers": ["Tensile joint", "Shear joint","Columnar joint","Exfoliation joint"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Columnar joints are typically associated with:",
+        "answers": ["Igneous rocks", "Sedimentary rocks","Metamorphic rocks","Hydrothermal deposits"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Exfoliation joints are commonly observed in:",
+        "answers": ["Igneous rocks", "Sedimentary rocks","Metamorphic rocks","Volcanic rocks"],
+        "correctIndex": 3
+      },
+      {
+        "question": "Which term describes joints that form parallel to the direction of maximum stress?",
+        "answers": ["Tensile joint", "Shear joint","Columnar joint","Tectonic joint"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the significance of joint spacing in rock masses?",
+        "answers": ["It indicates the age of the rocks", "It affects the stability of slopes","It determines the mineral composition of the rocks","It reflects the intensity of past volcanic activity"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What term describes the parallel alignment of mineral grains or structural features in a rock?",
+        "answers": ["Foliation", "Lineation","Cleavage","Schistosity"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Foliation is commonly associated with which type of metamorphic rocks?",
+        "answers": ["Marble", "Basalt","Slate","Quartzite"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Lineation refers to linear features in rocks that can be caused by:",
+        "answers": ["Folding", "Faulting","Shearing","All of the above"],
+        "correctIndex": 3
+      },
+      {
+        "question": "The classification of foliation is based on:",
+        "answers": ["Mineral composition", "Grain size","Orientation of mineral grains","All of the above"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What type of foliation is characterized by minerals that are flattened and aligned parallel to each other?",
+        "answers": ["Slaty cleavage", "Schistosity","Gneissic banding","Lineation"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which of the following is an example of a lineation commonly observed in igneous rocks?",
+        "answers": ["Flow banding", "Schistosity","Gneissic banding","Lineation"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What term describes the alignment of elongated mineral grains or structures in a rock?",
+        "answers": ["Foliation", "Lineation","Cleavage","Schistosity"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What type of foliation is commonly associated with metamorphism in shale or mudstone?",
+        "answers": ["Foliation", "Gneissic banding","Slaty cleavage","Schistosity"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which of the following structures is commonly associated with folding?",
+        "answers": ["Foliation", "Lineation","Cleavage","Schistosity"],
+        "correctIndex": 1
+      }
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}
