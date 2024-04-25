@@ -471,11 +471,6 @@
       "question": "What is the estimated number of rivers in Nepal?",
       "answers": ["6000", "5000", "7000", "8000"],
       "correctIndex": 0
-    },
-    {
-      "question": "What is the name of author?",
-      "answers": ["pujan", "bibek", "bhugol", "dari"],
-      "correctIndex": 0
     }
   ]
 }

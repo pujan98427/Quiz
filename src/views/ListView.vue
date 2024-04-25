@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IncorrectQuestionModal from "@/components/IncorrectQuestionModal.vue";
+import CompletedModel from "@/components/CompletedModel.vue";
 import QuizModel from "@/components/QuizListModel.vue";
 import Modal from "@/components/ResultModal.vue";
 import { useQuizStore } from "@/stores/quizStore";
@@ -17,7 +17,7 @@ function closeModal(): void {
     className="bg-white p-5 md:p-8 max-w-[666px] w-full relative  shadow rounded-lg"
   >
     <template v-if="QuizStore.showQuestion">
-      <IncorrectQuestionModal />
+      <CompletedModel />
     </template>
     <template
       v-for="(questionModal, index) in QuizStore.questionModals"

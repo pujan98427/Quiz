@@ -8,18 +8,19 @@ const props = defineProps({
     type: Object,
   },
 });
-console.log(props.questionIndex);
 
 const QuizStore = useQuizStore();
 const currentIndex = ref(0);
 const selectedOptions = ref([]);
 const selectedAnswer = ref<number | null>(null);
 const listWrongQuestion = ref([]);
+const listCorrectQuestion = ref([]);
 const internalScore = ref(0);
 
 function submitQuiz() {
   QuizStore.score = internalScore.value;
   QuizStore.inCorrectQuestion = listWrongQuestion.value;
+  QuizStore.correctQuestion = listCorrectQuestion.value;
   QuizStore.scoreModal = true;
   QuizStore.showQuestion = true;
 }
@@ -39,6 +40,9 @@ function answered(e) {
     );
     if (indexToRemove !== -1) {
       listWrongQuestion.value.splice(indexToRemove, 1);
+    }
+    if (!listCorrectQuestion.value.includes(currentQuestion)) {
+      listCorrectQuestion.value.push(currentQuestion);
     }
   } else {
     if (!listWrongQuestion.value.includes(updatedQuestionModal)) {

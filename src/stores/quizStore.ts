@@ -5,6 +5,7 @@ export const useQuizStore = defineStore("QuizStore", {
   state: () => ({
     questionModals: useLocalStorage("quizStore:questionModals", []),
     inCorrectQuestion: useLocalStorage("quizStore:inCorrectQuestion", []),
+    correctQuestion: useLocalStorage("quizStore:correctQuestion", []),
     scoreModal: useLocalStorage("quizStore:scoreModal", false),
     score: useLocalStorage("quizStore:score", 0),
     showQuestion: useLocalStorage("quizStore:showQuestion", false),
@@ -34,6 +35,11 @@ export const useQuizStore = defineStore("QuizStore", {
           );
           break;
         case 4:
+          allQuestions = await import(
+            "@/data/Geology/GeologyModelQuestionsSet1.json"
+          );
+          break;
+        case 5:
           allQuestions = await import("@/data/Buildingmaterials.json");
           break;
         default:

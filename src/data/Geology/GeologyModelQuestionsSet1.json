@@ -1,0 +1,339 @@
+{
+  "questionModals": [
+    {
+      "question": "Who gave the name 'Sagarmatha' to World's highest peak Mt. Everest?",
+      "answers": [
+        "Som Nath Sigdel",
+        "Chakrapani Chalise",
+        "Lekhnath Poudel",
+        "BabuRam Acharya"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "मनिसको शरीरमा सबैभन्दा लामो कोषिका ( Cell ) कुन हो ?",
+      "answers": ["रक्त कोष", "स्नायु कोष", "हाड कोष", "माथिका सबै"],
+      "correctIndex": 1
+    },
+    {
+      "question": "सबैभन्दा बढी कार्बनडाइअक्साइड उत्सर्जन गर्ने मुलुक कुन हो ?",
+      "answers": ["चिन", "अमेरिका", "बेलायत", "भारत"],
+      "correctIndex": 0
+    },
+    {
+      "question": "विश्व बैङ्कद्वारा सार्वजनिक प्रतिवेदन अनुसार सन् २०२४ मा नेपालको अर्थतन्त्र कति प्रतिशतले वृद्धि हुने अनुमान छ ?",
+      "answers": ["३.३%", "३.६%", "२.९%", "४.१%"],
+      "correctIndex": 0
+    },
+    {
+      "question": "जनगणना २०७८ अनुसार शौचालयको पहुँच पुगेको जनसङ्ख्या कति रहेको छ ?",
+      "answers": ["९१.३%", "९३.६%", "९५.५%", "९९.१%"],
+      "correctIndex": 2
+    },
+    {
+      "question": "दिगो विकास लक्ष्यको ‘5P’ भन्नाले के के बुझिन्छ ?",
+      "answers": [
+        "People,Planet,Prospirity,Peace,Partnership",
+        "People,Problem,Prospirity,Peace,Partnership",
+        "People,Problem,Prospirity,Peace,Position",
+        "Psychology,People,Prospirity,Problem,Partnership"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "UNO को पहिलो विशिष्टीकृत संस्था कुन हो ?",
+      "answers": ["UNDP", "UNESCO", "ILO", "World Bank"],
+      "correctIndex": 2
+    },
+    {
+      "question": "प्रत्येक महिलालाई सुरक्षित मातृत्व र प्रजनन स्वास्थ्य सम्बन्धी हक हुनेछ भनी कुन मौलिक हकमा व्यवस्था गरिएको छ ?",
+      "answers": [
+        "स्वतन्त्रताको हक",
+        "महिलाको हक",
+        "समानताको हक",
+        "स्वास्थ्य सम्बन्धी हक"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "नेपाललाई कुष्ठ रोग मुक्त घोषणा कहिले गरियो?",
+      "answers": [
+        "वि.सं. २०3६ माघ १०",
+        "वि.सं. २०४६ जेठ ५",
+        "वि.सं. २०५६ असार १२",
+        "वि.सं. २०६६ माघ ५"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "सूर्यका किरणमा भएको सबै रङ्हरुलाई मिसाउदा कुन रङ तयार हुन्छ ?",
+      "answers": ["सेतो", "रातो", "कालो", "निलो"],
+      "correctIndex": 0
+    },
+    {
+      "question": "कार्यालयको महत्व तलका मध्ये कुन होइन?",
+      "answers": [
+        "जनसम्पर्क केन्द्र",
+        "छलफल केन्द्र",
+        "व्यवस्थापन केन्द्र",
+        "अभिलेख केन्द्र"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "निजामती सेवा ऐन २०४९ को प्रकाशन कहिले भएको थियो?",
+      "answers": [
+        "वि.सं. २०४९ माघ ४",
+        "वि.सं. २०४९ जेठ १०",
+        "वि.सं. २०५० जेठ ४",
+        "वि.सं. २०५० माघ १०"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "संघीय मामिला तथा सामान्य प्रशासन मन्त्रालयका हालका सचिव को हुन?",
+      "answers": [
+        "मुकुन्द प्रसाद निरौला",
+        "भानुभक्त जाेशी",
+        "कमल प्रसाद भट्टराई",
+        "अश्विन कुमार पोखरेल"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "नेपालको संबैधानिक निकाय मध्ये कुन निकायको अधक्ष पदमा नियुक्त हुन अनिवार्य स्नाकोत्तर आवश्यक पर्दछ?",
+      "answers": ["निर्वाचन आयोग", "लोकसेवा आयोग", "महिला आयोग", "दलित आयोग"],
+      "correctIndex": 1
+    },
+    {
+      "question": "सञ्चित कोषको सञ्चालन र जिल्लागत रूपमा राजस्व आम्दानी र बजेट खर्चको नगद व्यवस्थापन सम्बन्धी कार्य गर्न प्रयोग हुने TSA को पुरा रुप के हो",
+      "answers": [
+        "Treasury Simple Amount",
+        "Transparent Second Amount",
+        "Treasury Simple Account",
+        "Treasury Single Account"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "राष्ट्रिय कर दिवस कहिले मनाइन्छ?",
+      "answers": ["असार २०", "मंसिर १", "कार्तिक २९", "चैत २५"],
+      "correctIndex": 1
+    },
+    {
+      "question": "सुचनाको हकको संरक्षण, सम्वर्धन र प्रचलन गर्ने कामका लागि रहने सुचना आयोगको अध्यक्ष को रहने व्यवस्था छ?",
+      "answers": [
+        "प्रधानमन्त्री",
+        "मुख्यसचिव",
+        "सभामुख",
+        "सुचना तथा सन्चार मन्त्री"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "सार्वजनिक सेवा बडापत्रको अवधारणाको विकास कुन देसबाट सुरु भएको हो?",
+      "answers": ["बेलायत", "अमेरिका", "चिन", "जर्मनी"],
+      "correctIndex": 0
+    },
+    {
+      "question": "चुनावको लागि मतदान स्थल निर्माण गरिएको अवस्था र त्यँहा मतदान कार्य हुन्छ भने सो अवस्थालाइ कार्यालय भनिन्छ/भनिदैन?",
+      "answers": ["भनिन्छ", "भनिदैन", "दुवै हुन सक्छ", "कुनै पनि हैन"],
+      "correctIndex": 0
+    },
+    {
+      "question": "राज्यका नीतिहरु नेपालको संविधानको कुन धारामा उल्लेख गरिएको छ?",
+      "answers": ["धारा ४९", "धारा ५०", "धारा ५१", "धारा ५३"],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which branch of geology involves the study of Earth's water resources, including groundwater and surface water?",
+      "answers": ["Hydrogeology", "Oceanography", "Glaciology", "Climatology"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which era of the geologic time scale is known as the Age of Dinosaurs?",
+      "answers": [
+        "Cenozoic Era",
+        "Mesozoic Era",
+        "Paleozoic Era",
+        "Precambrian Era"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Wind erosion primarily shapes landscapes through the process of:",
+      "answers": [
+        "Abrasion",
+        "Corrosion",
+        "Freeze-thaw action",
+        "Mass wasting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which of the following is NOT a primary goal of structural geology?",
+      "answers": [
+        "Understanding the formation of mountains and valleys",
+        "Identifying potential sites for oil and gas exploration",
+        "Analyzing the causes and effects of landslides",
+        "Studying the behavior of glaciers"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which of the following primary structures is often used to determine the original top and bottom of a sedimentary sequence?",
+      "answers": ["Joints", "Veins", "Graded bedding", "Unconformities"],
+      "correctIndex": 3
+    },
+    {
+      "question": "The classification of foliation is based on:",
+      "answers": [
+        "Mineral composition",
+        "Grain size",
+        "Orientation of mineral grains",
+        "All of the above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which layer of the Earth is divided into several large and small tectonic plates?",
+      "answers": ["Crust", "Mantle", "Outer core", "Inner core"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which depositional structure is characterized by alternating layers of fine and coarse sediment?",
+      "answers": [
+        "Ripple marks",
+        "Graded bedding",
+        "Mud cracks",
+        "Cross bedding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which sedimentary rock is primarily composed of rounded gravel-sized particles cemented together?",
+      "answers": ["Sandstone", "Conglomerate", "Mud rocks", "Limestone"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which of the following symmetry elements indicates a rotation by 180 degrees about an axis?",
+      "answers": [
+        "2-fold rotation axis",
+        "3-fold rotation axis",
+        "4-fold rotation axis",
+        "6-fold rotation axis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which physical property of minerals describes their resistance to scratching?",
+      "answers": ["Hardness", "Cleavage", "Color", "Luster"],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which physical property of minerals describes their resistance to breaking, bending, or deforming?",
+      "answers": ["Hardness", "Cleavage", "Fracture", "Tenacity"],
+      "correctIndex": 3
+    },
+    {
+      "question": "What phenomenon occurs when light waves interact with each other, resulting in the reinforcement or cancellation of certain wavelengths, leading to the appearance of different colors?",
+      "answers": [
+        "Dispersion",
+        "Interference",
+        "Polarization",
+        "Birefringence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which principle of stratigraphy states that layers of sediment are originally deposited horizontally, and any deviation from horizontal indicates subsequent deformation or tilting?",
+      "answers": [
+        "Law of Superposition",
+        "Principle of Original Horizontality",
+        "Principle of Cross-Cutting Relationships",
+        "Principle of Faunal Succession"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "The stratigraphic unit that represents a specific period of time and is defined by its rock content and fossil assemblage is called:",
+      "answers": ["Bed", "Member", "Formation", "Stage"],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which mode of fossil preservation involves the replacement of organic material by minerals, resulting in a stone replica of the original organism?",
+      "answers": [
+        "Permineralization",
+        "Carbonization",
+        "Petrification",
+        "Recrystallization"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which of the following is not a phylum commonly represented in the fossil record?",
+      "answers": ["Mollusca", "Chordata", "Echinodermata", "Insecta"],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which chemical classification of igneous rocks is based on the percentage of silica (SiO2) present in the rock?",
+      "answers": ["Ultramafic", "Mafic", "Intermediate", "Felsic"],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which metamorphic rock exhibits a silky or wavy appearance due to the alignment of its mineral grains?",
+      "answers": ["Slate", "Phyllite", "Schist", "Gneiss"],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which process involves the concentration of minerals through the mechanical sorting and accumulation of heavy minerals in sedimentary environments?",
+      "answers": [
+        "Sedimentation",
+        "Sublimation",
+        "Bacteriogenic concentration",
+        "Mechanical concentration"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which prospecting criteria focuses on the study of rock types and their associations with mineralization?",
+      "answers": [
+        "Structural-tectonic",
+        "Lithological",
+        "Stratigraphical",
+        "Magmatogenic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Porosity of soil refers to:",
+      "answers": [
+        "The volume of void spaces in soil relative to its total volume",
+        "The weight of soil per unit volume",
+        "The ratio of air to water content in soil",
+        "The cohesion between soil particles"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Cohesive soil exhibits:",
+      "answers": [
+        "Strong internal cohesion due to the presence of clay minerals",
+        "Weak internal cohesion due to the presence of sand and gravel",
+        "High porosity and low void ratio",
+        "High degree of saturation and low permeability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Rock strength is a measure of",
+      "answers": [
+        "The resistance of a rock to weathering",
+        "The ability of a rock to support heavy loads without deformation",
+        "The maximum stress a rock can withstand before failure",
+        "The degree of fracturing and discontinuities within a rock"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}

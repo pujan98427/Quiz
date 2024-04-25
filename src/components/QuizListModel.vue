@@ -11,12 +11,14 @@ const QuizStore = useQuizStore();
 let selectedOptions = ref<string[]>([]);
 
 function submitQuiz(): void {
-  const { score, incorrectQuestion } = calculateScore();
+  const { score, incorrectQuestion, correctQuestion } = calculateScore();
+  console.log(correctQuestion);
 
   QuizStore.score = score;
 
   // Add all incorrect question to store
   QuizStore.inCorrectQuestion = incorrectQuestion;
+  QuizStore.correctQuestion = correctQuestion;
 
   // hide scroll when modal is open
   document.body.style.overflow = "hidden";
@@ -35,10 +37,15 @@ function submitQuiz(): void {
  * Calculate the score and the list of incorrect questions.
  * @returns An object with the score and the list of incorrect questions.
  */
-function calculateScore(): { score: number; incorrectQuestion: any[] } {
+function calculateScore(): {
+  score: number;
+  incorrectQuestion: any[];
+  correctQuestion: any[];
+} {
   let score = 0;
   let incorrectQuestion: any[] = [];
-
+  let correctQuestion: any[] = [];
+  console.log(correctQuestion);
   const selectedAnswers = selectedOptions.value.map((selectOption, index) => {
     const selectedOptionIndex =
       props.questionModal[index].answers.indexOf(selectOption);
@@ -51,9 +58,14 @@ function calculateScore(): { score: number; incorrectQuestion: any[] } {
       ...question,
       selectedOption: selectedOptionIndex,
     };
-
-    if (!isCorrectAnswer && !incorrectQuestion.includes(updatedQuestionModal)) {
-      incorrectQuestion.push(updatedQuestionModal);
+    if (!isCorrectAnswer) {
+      if (!incorrectQuestion.includes(updatedQuestionModal)) {
+        incorrectQuestion.push(updatedQuestionModal);
+      }
+    } else {
+      if (!correctQuestion.includes(question)) {
+        correctQuestion.push(question);
+      }
     }
 
     return isCorrectAnswer ? 1 : 0;
@@ -61,7 +73,7 @@ function calculateScore(): { score: number; incorrectQuestion: any[] } {
 
   score = selectedAnswers.reduce((acc, curr) => acc + curr, 0);
 
-  return { score, incorrectQuestion };
+  return { score, incorrectQuestion, correctQuestion };
 }
 
 const idGenerator = Math.random().toString(36).slice(2);
