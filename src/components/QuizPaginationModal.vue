@@ -1,19 +1,19 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { useQuizStore } from "@/stores/quizStore";
+import { defineProps } from "vue";
 
 const props = defineProps({
   questionModal: {
     type: Object,
   },
 });
-
-// console.log(props.questionModal);
+console.log(props.questionIndex);
 
 const QuizStore = useQuizStore();
-let currentIndex = ref<number>(0);
-let selectedOptions = ref<number | null>(null);
-let selectedAnswer = ref<number | null>(null);
+const currentIndex = ref(0);
+const selectedOptions = ref([]);
+const selectedAnswer = ref<number | null>(null);
 const listWrongQuestion = ref([]);
 const internalScore = ref(0);
 
@@ -24,16 +24,14 @@ function submitQuiz() {
   QuizStore.showQuestion = true;
 }
 
-/**
- * Updates the score and incorrectQuestion array based on the selectedIndex.
- * @param selectedIndex - The index of the selected answer.
- * @returns An object containing the updated score and incorrectQuestion array.
- */
 function answered(e) {
   const selectedIndex = Number(e.target.value);
   const currentQuestion = props.questionModal[currentIndex.value];
   const correctIndex = currentQuestion["correctIndex"];
-
+  let updatedQuestionModal = {
+    ...currentQuestion,
+    selectedOption: selectedIndex,
+  };
   if (selectedIndex === correctIndex) {
     internalScore.value += 1;
     const indexToRemove = listWrongQuestion.value.findIndex(
@@ -43,8 +41,8 @@ function answered(e) {
       listWrongQuestion.value.splice(indexToRemove, 1);
     }
   } else {
-    if (!listWrongQuestion.value.includes(currentQuestion)) {
-      listWrongQuestion.value.push(currentQuestion);
+    if (!listWrongQuestion.value.includes(updatedQuestionModal)) {
+      listWrongQuestion.value.push(updatedQuestionModal);
     }
   }
 }
@@ -52,9 +50,6 @@ function answered(e) {
 function fetchNextQuestion(): void {
   currentIndex.value++;
   selectedOptions.value = null;
-}
-function fetchPreviousQuestion(): void {
-  currentIndex.value--;
 }
 </script>
 <template>

@@ -67,7 +67,14 @@ function calculateScore(): { score: number; incorrectQuestion: any[] } {
 const idGenerator = Math.random().toString(36).slice(2);
 </script>
 <template>
-  <div class="py-5 md:py-8 max-w-[666px] space-y-8">
+  <div class="absolute -top-4 left-10">
+    <p
+      class="pointed-clip rounded-t-lg text-xs font-medium text-center w-16 bg-[linear-gradient(30.59deg,_#E38415_20.8%,_#F59F18_84.66%)] text-white py-3"
+    >
+      {{ props.questionModal.length }}
+    </p>
+  </div>
+  <div class="py-5 md:py-8 max-w-[666px] space-y-8 relative">
     <div
       class="space-y-6"
       v-for="(questionModal, questionIndex) in props.questionModal"
