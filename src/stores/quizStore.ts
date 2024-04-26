@@ -4,12 +4,12 @@ import { useLocalStorage } from "@vueuse/core";
 export const useQuizStore = defineStore("QuizStore", {
   state: () => ({
     questionModals: useLocalStorage("quizStore:questionModals", []),
-    inCorrectQuestion: useLocalStorage("quizStore:inCorrectQuestion", []),
-    correctQuestion: useLocalStorage("quizStore:correctQuestion", []),
-    scoreModal: useLocalStorage("quizStore:scoreModal", false),
-    score: useLocalStorage("quizStore:score", 0),
-    showQuestion: useLocalStorage("quizStore:showQuestion", false),
-    fetchQuestion: useLocalStorage("quizStore:fetchQuestion", null),
+    inCorrectQuestion: [],
+    correctQuestion: [],
+    scoreModal: false,
+    score: 0,
+    showQuestion: false,
+    fetchQuestion: null,
     globalSelectedQuestionModal: <null | number>null,
   }),
   getters: {

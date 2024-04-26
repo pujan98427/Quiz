@@ -18,7 +18,9 @@ function handleOptionChange(event) {
 }
 </script>
 <template>
-  <div class="p-1 mb-8 rounded-lg bg-gray-100 flex items-center space-x-1">
+  <div
+    class="p-1 mb-8 rounded-lg bg-gray-100 flex gap-1 md:items-center flex-col md:flex-row space-x-1"
+  >
     <span class="block flex-1">
       <input
         id="inCorrect_toggle"
@@ -75,13 +77,21 @@ function handleOptionChange(event) {
         <IncorrectQuestionModal :questionModal="questionModal" />
       </template>
 
-      <button
-        type="submit"
-        class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-        @click="QuizStore.showQuestion = false"
-      >
-        Play Again
-      </button>
+      <div class="flex items-center gap-4 mt-8">
+        <router-link
+          :to="{ name: 'layout' }"
+          class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+        >
+          Back to Home
+        </router-link>
+        <button
+          type="submit"
+          class="flex w-full items-center justify-center rounded-md border border-indigo-600 px-8 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          @click="QuizStore.showQuestion = false"
+        >
+          Play Again
+        </button>
+      </div>
     </div>
     <div class="space-y-8" v-else>
       <template
@@ -89,13 +99,21 @@ function handleOptionChange(event) {
       >
         <IncorrectQuestionModal :questionModal="questionModal" />
       </template>
-      <button
-        type="submit"
-        class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-        @click="QuizStore.showQuestion = false"
-      >
-        Play Again
-      </button>
+      <div class="flex items-center gap-4 mt-8">
+        <router-link
+          :to="{ name: 'layout' }"
+          class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+        >
+          Back to Home
+        </router-link>
+        <button
+          type="submit"
+          class="flex w-full items-center justify-center rounded-md border border-indigo-600 px-8 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          @click="QuizStore.showQuestion = false"
+        >
+          Play Again
+        </button>
+      </div>
     </div>
   </transition>
 </template>

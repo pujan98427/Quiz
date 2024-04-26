@@ -45,13 +45,21 @@ const close = () => {
             You got {{ props.score }}/{{ props.totalQuestion }}
           </p>
           <p className="py-2 font-medium" v-if="props.score > 2">Congrats!!!</p>
-          <router-link
-            :to="{ name: 'layout' }"
-            type="submit"
-            class="mt-8 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-          >
-            Back to Home
-          </router-link>
+          <div class="flex items-center gap-4 mt-8">
+            <router-link
+              :to="{ name: 'layout' }"
+              class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            >
+              Back to Home
+            </router-link>
+            <button
+              type="submit"
+              class="flex w-full items-center justify-center rounded-md border border-indigo-600 px-8 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              @click.prevent="close"
+            >
+              Next
+            </button>
+          </div>
         </div>
       </div>
     </div>
