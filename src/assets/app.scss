@@ -7,12 +7,16 @@
 @layer {
     body {
         font-family: 'Poppins', sans-serif;
-        @apply bg-gray-100
+        @apply bg-[url('./images/background.png')] bg-fixed;
     }
 }
 
 h1 {
     @apply text-5xl font-bold
+}
+
+#app {
+    @apply bg-[url('./images/beamsheader.png')] bg-fixed;
 }
 
 body {}
