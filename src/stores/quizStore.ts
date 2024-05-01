@@ -9,7 +9,7 @@ export const useQuizStore = defineStore("QuizStore", {
     scoreModal: false,
     score: 0,
     showQuestion: false,
-    fetchQuestion: null,
+    fetchQuestion: useLocalStorage("quizStore:fetchQuestion", null),
     globalSelectedQuestionModal: <null | number>null,
   }),
   getters: {
